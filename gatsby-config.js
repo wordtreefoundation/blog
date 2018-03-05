@@ -8,11 +8,11 @@ module.exports = {
     menu: [
       {
         label: 'Home',
-        path: 'http://wordtree.org/'
+        path: '/'
       },
       {
         label: 'Articles',
-        path: '/'
+        path: '/articles/'
       },
       {
         label: 'About WordTree',

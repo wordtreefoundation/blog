@@ -4,9 +4,9 @@ layout: page
 path: "/about"
 ---
 
-We study the relationships between books, with a special focus on The Book of Mormon and other religious texts. We are a small volunteer organization with members across the United States and Canada who are curious about the origins of the Book of Mormon and want to contribute to its study.
+![books](./books.jpg)
 
-![](./bookbg.jpg)
+We study the relationships between books, with a special focus on The Book of Mormon and other religious texts. We are a small volunteer organization with members across the United States and Canada who are curious about the origins of the Book of Mormon and want to contribute to its study.
 
 ## Projects
 
@@ -18,3 +18,7 @@ A computer-aided study that reveals some remarkable similarities between the Boo
 
 ### [BomDB](https://github.com/wordtreefoundation/bomdb)
 A resource for computer-aided studies of the Book of Mormon. Contains a command-line tool (Linux/MacOS/Windows) that can be used to find specific verses across multiple editions, or produce full copies (with our without chapter/verse annotations) of each edition.
+
+<div align="center">
+  <img src="./wordtree.svg" width="200" />
+</div>
