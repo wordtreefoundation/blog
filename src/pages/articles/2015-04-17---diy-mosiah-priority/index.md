@@ -3,7 +3,7 @@ title: "DIY Mosiah Priority with BomDB"
 date: "2015-04-17T22:35:19.569Z"
 layout: post
 draft: false
-path: "/articles/diy-mosiah-priority"
+path: "/news/diy-mosiah-priority"
 category: "Data Science"
 tags:
   - "tools"

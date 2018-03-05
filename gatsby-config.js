@@ -11,8 +11,8 @@ module.exports = {
         path: '/'
       },
       {
-        label: 'Articles',
-        path: '/articles/'
+        label: 'News',
+        path: '/news/'
       },
       {
         label: 'The Late War',

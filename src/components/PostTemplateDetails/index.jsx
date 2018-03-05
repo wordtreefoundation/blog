@@ -11,8 +11,9 @@ class PostTemplateDetails extends React.Component {
     const tags = post.fields.tagSlugs;
 
     const homeBlock = (
-      <div>
-        <Link className="post-single__home-button" to="/articles/">All Articles</Link>
+      <div className="post-single__home">
+        <Link className="post-single__home-button" to="/">Home</Link>
+        <Link className="post-single__home-button" to="/news/">All News</Link>
       </div>
     );
 

@@ -6,6 +6,7 @@ import Link from 'gatsby-link';
 import Title from '../components/Title';
 import Pill from '../components/Pill';
 import SidebarHome from '../components/SidebarHome';
+import './style.scss'
 
 class IndexRoute extends React.Component {
   render() {
@@ -30,7 +31,7 @@ class IndexRoute extends React.Component {
               <div className="index__articles">
                 <h1>News</h1>
                 <Post data={post} key={post.node.fields.slug} />
-                <Link to="/articles/">
+                <Link to="/news/">
                   <h2>See All <Pill>{this.props.data.allMarkdownRemark.edges.length}</Pill> Articles</h2>
                 </Link>
               </div>

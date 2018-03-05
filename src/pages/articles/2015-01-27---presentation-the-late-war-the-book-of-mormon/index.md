@@ -3,7 +3,7 @@ title: "Presentation: The Late War & The Book of Mormon"
 date: "2015-01-28T05:42:51.149Z"
 layout: post
 draft: false
-path: "/articles/presentation-the-late-war-the-book-of-mormon"
+path: "/news/presentation-the-late-war-the-book-of-mormon"
 category: "Presentation"
 tags:
   - "n-gram"

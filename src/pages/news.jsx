@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import Post from '../components/Post';
 import Sidebar from '../components/Sidebar';
 
-class ArticlesRoute extends React.Component {
+class NewsRoute extends React.Component {
   render() {
     const items = [];
     const { title, subtitle } = this.props.data.site.siteMetadata;
@@ -29,10 +29,10 @@ class ArticlesRoute extends React.Component {
   }
 }
 
-export default ArticlesRoute;
+export default NewsRoute;
 
 export const pageQuery = graphql`
-  query ArticlesQuery {
+  query NewsQuery {
     site {
       siteMetadata {
         title

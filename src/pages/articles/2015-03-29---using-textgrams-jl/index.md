@@ -3,7 +3,7 @@ title: "Using TextGrams.jl"
 date: "2015-03-29T16:53:58.333Z"
 layout: post
 draft: false
-path: "/articles/using-textgrams-jl"
+path: "/news/using-textgrams-jl"
 category: "Data Science"
 tags:
   - "n-gram"

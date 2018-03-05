@@ -3,7 +3,7 @@ title: "Site Update"
 date: "2018-03-04T19:59:15Z"
 layout: post
 draft: false
-path: "/articles/site-update"
+path: "/news/site-update"
 category: "Organization"
 tags:
   - "website"

@@ -3,7 +3,7 @@ title: Understanding ARPA and Language Models
 date: "2014-01-11T19:00:00.000Z"
 layout: post
 draft: false
-path: "/articles/arpa-lm"
+path: "/news/arpa-lm"
 category: "Data Science"
 tags:
   - "n-gram"
