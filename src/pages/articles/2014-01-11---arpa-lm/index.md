@@ -13,7 +13,7 @@ description: "I started off today thinking I’d be able to transform a previous
 
 Language Models are a better way of comparing phrase probabilities than n-gram frequencies.
 
-At the WordTree Foundation, we’re exploring ways of mapping the similarities and influences among various books, with the Book of Mormon of special interest in this exploration. In the past, we’ve shown raw unconditional probabilities to be an interesting (albeit limited) way of scoring similarities among books. Our online publication of [A Comparison of The Book of Mormon and The Late War](http://wordtreefoundation.github.io/thelatewar/) was the result of that original research.
+At the WordTree Foundation, we’re exploring ways of mapping the similarities and influences among various books, with the Book of Mormon of special interest in this exploration. In the past, we’ve shown raw unconditional probabilities to be an interesting (albeit limited) way of scoring similarities among books. Our online publication of [A Comparison of The Book of Mormon and The Late War](/the-late-war) was the result of that original research.
 
 I started off today thinking I’d be able to transform the [previous n-gram library](https://github.com/canadaduane/TextGrams.jl) we wrote in the Julia programming language over to KenLM, a very fast Language Model generator. Instead, I ended up spending most of the day learning about language models and data formats. I thought I’d pass along some of this information and any insights I’ve had.
 

@@ -14,7 +14,7 @@ description: "Duane Johnson gave a presentation to the Salt Lake City PostMormon
 
 I gave a presentation to the Salt Lake City PostMormon group a couple of weeks ago summarizing some of the similarities between The Late War and the Book of Mormon, as well as further research we've made since our original work a little over a year ago.
 
-For the complete Comparison we published online, please see http://wordtreefoundation.github.io/thelatewar/
+For the complete Comparison we published online, please see [wordtree.org/the-late-war](http://wordtree.org/the-late-war)
 
 The sound quality improves a little way in to the presentation.
 
@@ -84,7 +84,7 @@ This one, I'm going to go into further detail with, but this one is really amazi
   </tbody>
 </table>
 
-These are all coming from http://wordtreefoundation.github.io/thelatewar/ so if you want to visit that, it goes into detail on all of those. Some people wonder, how much of the phrases are you skipping with the ellipses? Sometimes it's a lot, sometimes it's a little, so it is interesting to look at that more.
+These are all coming from http://wordtree.org/the-late-war so if you want to visit that, it goes into detail on all of those. Some people wonder, how much of the phrases are you skipping with the ellipses? Sometimes it's a lot, sometimes it's a little, so it is interesting to look at that more.
 
 So here's one of them that I really like: the river battle. In The Late War, we have a battle raging "with great violence, and the men of Britain strove hard to pass over the river called Saranac" and I remember reading the Book of Mormon and thinking, is it a river? or is it waters? that's weird. I always wondered, why are we describing it in two different ways? Well, here we have a parallel: it's "the river called Saranac", and they're on "opposite side of the water", they "slew them with great slaughter", and they drove them back from crossing the bridges, and they were "slain", "so that the waters of the Saranac were dyed with the blood of the servants of the king." So all of the people went in to the river. And basically with the same language [in the Book of Mormon]: here we have "the guards of the king" instead of the "servants of the king", who "slew" them, drove them back and cleared the ground on "the west side" of the river instead of the "opposite side" of "the river Sidon", "throwing bodies of the Lamanites which had been slain, into the waters of Sidon, that thereby his people might have room to cross." Another thing that's kind of weird to me--it's kind of implicit here, but why did they need room to cross? It's a river, right? It's miles and miles, why can't you just kind of go around the people on the other side of the bank? Maybe there was a bridge? I don't know. Maybe some mental imagery prevented the author from thinking in terms of a wide river there.
 

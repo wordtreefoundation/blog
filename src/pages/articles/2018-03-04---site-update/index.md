@@ -21,7 +21,7 @@ First of all, we want to showcase some of the things we've done in the past, and
 ### [Book of Mormon Origins](https://www.bookofmormonorigins.com)
 An open-source, public domain resource that adds missing footnotes to the Book of Mormon.
 
-### [The Late War Study](https://wordtreefoundation.github.io/thelatewar/)
+### [The Late War Study](http://wordtree.org/the-late-war)
 A computer-aided study that reveals some remarkable similarities between the Book of Mormon and The Late War Between the United States and Great Britain (published in 1816).
 
 ### [BomDB](https://github.com/wordtreefoundation/bomdb)

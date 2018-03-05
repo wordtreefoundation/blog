@@ -40,7 +40,7 @@ class IndexRoute extends React.Component {
                 <h3><a href="https://www.bookofmormonorigins.com">Book of Mormon Origins</a></h3>
                 <p>An open-source, public domain resource that adds missing footnotes to the Book of Mormon.</p>
 
-                <h3><a href="https://wordtreefoundation.github.io/thelatewar/">The Late War Study</a></h3>
+                <h3><a href="http://wordtree.org/the-late-war">The Late War Study</a></h3>
                 <p>A computer-aided study that reveals some remarkable similarities between the Book of Mormon and The Late War Between the United States and Great Britain (published in 1816).</p>
 
                 <h3><a href="https://github.com/wordtreefoundation/bomdb">BomDB (Book of Mormon Database)</a></h3>
