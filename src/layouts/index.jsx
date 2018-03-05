@@ -4,14 +4,17 @@ import '../assets/scss/init.scss';
 
 class Layout extends React.Component {
   render() {
-    const { children } = this.props;
+    if (this.props.location.pathname !== "/") {
+      return (
+        <div className="layout">
+          <Helmet defaultTitle="WordTree Foundation" />
+          {this.props.children()}
+        </div>
+      );
+    } else {
+      return this.props.children();
+    }
 
-    return (
-      <div className="layout">
-        <Helmet defaultTitle="WordTree Foundation" />
-        {children()}
-      </div>
-    );
   }
 }
 

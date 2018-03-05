@@ -1,0 +1,10 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.pill {
+  display: inline;
+  padding: 0 10px;
+  border-radius: 18px;
+  background-color: $color-primary;
+  color: white;
+}
