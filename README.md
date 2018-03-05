@@ -1,6 +1,6 @@
-# WordTree Foundation Blog
+# WordTree Foundation Website
 
-Visit http://blog.wordtree.org
+Visit http://wordtree.org
 
 ## Setup
 
