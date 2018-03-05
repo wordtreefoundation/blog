@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         label: 'The Late War',
-        path: 'http://wordtree.org/the-late-war/'
+        path: '/the-late-war'
       },
       {
         label: 'About WordTree',
