@@ -12,9 +12,9 @@
 <url> <loc>http://blog.wordtree.org/articles/site-update</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/tags/website/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/categories/organization/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://blog.wordtree.org/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/articles/diy-mosiah-priority</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/tags/tools/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://blog.wordtree.org/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/articles/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
