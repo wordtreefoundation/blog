@@ -1,0 +1,6 @@
+[submodule "src/pages/pages/2018-03-04---the-late-war"]
+	path = src/pages/pages/2018-03-04---the-late-war
+	url = git@github.com:wordtreefoundation/thelatewar.git
+[submodule "static/the-late-war"]
+	path = static/the-late-war
+	url = git@github.com:wordtreefoundation/thelatewar.git

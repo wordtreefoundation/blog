@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     url: 'http://blog.wordtree.org',
-    title: 'WordTree Foundation Blog',
+    title: 'The WordTree Foundation',
     subtitle: 'The WordTree Foundation studies the relationships between books, with a special interest in LDS scripture such as the Book of Mormon.',
     copyright: '',
     disqusShortname: '',
@@ -13,6 +13,10 @@ module.exports = {
       {
         label: 'Articles',
         path: '/articles/'
+      },
+      {
+        label: 'The Late War',
+        path: 'http://wordtree.org/the-late-war/'
       },
       {
         label: 'About WordTree',
