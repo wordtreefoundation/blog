@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>http://blog.wordtree.org/offline-plugin-app-shell-fallback/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://blog.wordtree.org/articles/arpa-lm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://blog.wordtree.org/news/arpa-lm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/tags/n-gram/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/tags/book-of-mormon/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/categories/data-science/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://blog.wordtree.org/articles/using-textgrams-jl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://blog.wordtree.org/news/using-textgrams-jl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/tags/presentation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://blog.wordtree.org/articles/presentation-the-late-war-the-book-of-mormon</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://blog.wordtree.org/news/diy-mosiah-priority</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://blog.wordtree.org/tags/tools/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://blog.wordtree.org/news/presentation-the-late-war-the-book-of-mormon</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/categories/presentation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://blog.wordtree.org/articles/site-update</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://blog.wordtree.org/news/site-update</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/tags/website/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/categories/organization/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://blog.wordtree.org/articles/diy-mosiah-priority</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://blog.wordtree.org/tags/tools/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://blog.wordtree.org/articles/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://blog.wordtree.org/news/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://blog.wordtree.org/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
