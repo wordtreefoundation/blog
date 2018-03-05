@@ -1,2 +1,0 @@
-webpackJsonp([0xe70826b53c04],{378:function(e,t){e.exports={data:{site:{siteMetadata:{title:"WordTree Foundation Blog",subtitle:"The WordTree Foundation studies the relationships between books, with a special interest in LDS scripture such as the Book of Mormon.",copyright:"",menu:[{label:"Home",path:"http://wordtree.org/"},{label:"Articles",path:"/"},{label:"About WordTree",path:"/about/"}],author:{name:"WordTree Foundation",email:"info@wordtree.org",github:"wordtreefoundation"}}}},pathContext:{}}}});
-//# sourceMappingURL=path---404-3251cb63e30160d7ec41.js.map
