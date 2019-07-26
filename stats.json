@@ -13,20 +13,20 @@
       "component---src-pages-news-jsx-87ccbba1c4c2eb64a267.js.map"
     ],
     "path---categories": [
-      "path---categories-9cfd2b6449c4e4541644.js",
-      "path---categories-9cfd2b6449c4e4541644.js.map"
+      "path---categories-370bcac39ed48a72c114.js",
+      "path---categories-370bcac39ed48a72c114.js.map"
     ],
     "component---src-pages-tags-jsx": [
-      "component---src-pages-tags-jsx-e1306667a369780294ff.js",
-      "component---src-pages-tags-jsx-e1306667a369780294ff.js.map"
+      "component---src-pages-tags-jsx-0f32f31ba245f3498615.js",
+      "component---src-pages-tags-jsx-0f32f31ba245f3498615.js.map"
     ],
     "path---categories-data-science": [
-      "path---categories-data-science-7764d13157016ac9a21a.js",
-      "path---categories-data-science-7764d13157016ac9a21a.js.map"
+      "path---categories-data-science-2b5d028959f68710a242.js",
+      "path---categories-data-science-2b5d028959f68710a242.js.map"
     ],
     "path---tags": [
-      "path---tags-19cef1a5c9fc2a7158e1.js",
-      "path---tags-19cef1a5c9fc2a7158e1.js.map"
+      "path---tags-d807ce85e1f5cb2c6274.js",
+      "path---tags-d807ce85e1f5cb2c6274.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -37,8 +37,8 @@
       "path---tags-book-of-mormon-2b2d38493160e022eb4d.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-7b7711b7dde5c623938a.js",
-      "component---src-layouts-index-jsx-7b7711b7dde5c623938a.js.map"
+      "component---src-layouts-index-jsx-87c9541c6336947c0912.js",
+      "component---src-layouts-index-jsx-87c9541c6336947c0912.js.map"
     ],
     "component---src-templates-category-template-jsx": [
       "component---src-templates-category-template-jsx-cf1c8b990648253d5738.js",
@@ -61,38 +61,38 @@
       "path---categories-organization-cd7e4f111e9fdebf724f.js.map"
     ],
     "path---news-diy-mosiah-priority": [
-      "path---news-diy-mosiah-priority-4e9712ba688ec0b1ec61.js",
-      "path---news-diy-mosiah-priority-4e9712ba688ec0b1ec61.js.map"
+      "path---news-diy-mosiah-priority-e3dddb8c0321633271e6.js",
+      "path---news-diy-mosiah-priority-e3dddb8c0321633271e6.js.map"
     ],
     "component---src-pages-categories-jsx": [
-      "component---src-pages-categories-jsx-dc892dc56898ecd4183e.js",
-      "component---src-pages-categories-jsx-dc892dc56898ecd4183e.js.map"
+      "component---src-pages-categories-jsx-1ff84966f84b04ce4b5d.js",
+      "component---src-pages-categories-jsx-1ff84966f84b04ce4b5d.js.map"
     ],
     "path---index": [
-      "path---index-c8975ff4fe9318e74522.js",
-      "path---index-c8975ff4fe9318e74522.js.map"
+      "path---index-7523fde524e618d1f89a.js",
+      "path---index-7523fde524e618d1f89a.js.map"
     ],
     "path---news-using-textgrams-jl": [
-      "path---news-using-textgrams-jl-484ec8bd038bd8304636.js",
-      "path---news-using-textgrams-jl-484ec8bd038bd8304636.js.map"
+      "path---news-using-textgrams-jl-2ab65a32bc9e3ddbb9b3.js",
+      "path---news-using-textgrams-jl-2ab65a32bc9e3ddbb9b3.js.map"
     ],
     "path---news-site-update": [
-      "path---news-site-update-6ec6dbe4b9925ba8d15d.js",
-      "path---news-site-update-6ec6dbe4b9925ba8d15d.js.map"
+      "path---news-site-update-9017729b34e502566b5e.js",
+      "path---news-site-update-9017729b34e502566b5e.js.map"
     ],
     "path---tags-website": [
       "path---tags-website-7d7677efe0782d807c8f.js",
       "path---tags-website-7d7677efe0782d807c8f.js.map"
     ],
     "commons": [
-      "commons-ba3bcf0cf6d25b696d2f.js",
+      "commons-0e9b7e2bc4d404dc9d13.js",
       "build-js-styles.css",
-      "commons-ba3bcf0cf6d25b696d2f.js.map",
+      "commons-0e9b7e2bc4d404dc9d13.js.map",
       "build-js-styles.css.map"
     ],
     "path---news-presentation-the-late-war-the-book-of-mormon": [
-      "path---news-presentation-the-late-war-the-book-of-mormon-e3d00aecb59a3054ad5b.js",
-      "path---news-presentation-the-late-war-the-book-of-mormon-e3d00aecb59a3054ad5b.js.map"
+      "path---news-presentation-the-late-war-the-book-of-mormon-3d189bcd90e45b710385.js",
+      "path---news-presentation-the-late-war-the-book-of-mormon-3d189bcd90e45b710385.js.map"
     ],
     "path---404-html": [
       "path---404-html-19a12841f7afe2737641.js",
@@ -107,8 +107,8 @@
       "component---src-pages-404-jsx-3d0441dd1a11b2f3a35b.js.map"
     ],
     "path---news": [
-      "path---news-c8975ff4fe9318e74522.js",
-      "path---news-c8975ff4fe9318e74522.js.map"
+      "path---news-7523fde524e618d1f89a.js",
+      "path---news-7523fde524e618d1f89a.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -119,28 +119,32 @@
       "component---src-pages-index-jsx-10dcedb4134684a92623.js.map"
     ],
     "app": [
-      "app-145be61cfa2136bed922.js",
-      "app-145be61cfa2136bed922.js.map"
+      "app-a7519e535b8370f5f006.js",
+      "app-a7519e535b8370f5f006.js.map"
     ],
     "path---tags-presentation": [
       "path---tags-presentation-8b6e79259533c33a3ae4.js",
       "path---tags-presentation-8b6e79259533c33a3ae4.js.map"
     ],
     "path---tags-n-gram": [
-      "path---tags-n-gram-d5beb6ba5faeb9f7d79a.js",
-      "path---tags-n-gram-d5beb6ba5faeb9f7d79a.js.map"
+      "path---tags-n-gram-a3d21b88c6de78546585.js",
+      "path---tags-n-gram-a3d21b88c6de78546585.js.map"
+    ],
+    "path---news-ngram-tools": [
+      "path---news-ngram-tools-05d513b66e5eccdd081e.js",
+      "path---news-ngram-tools-05d513b66e5eccdd081e.js.map"
     ],
     "path---404": [
       "path---404-19a12841f7afe2737641.js",
       "path---404-19a12841f7afe2737641.js.map"
     ],
     "path---news-arpa-lm": [
-      "path---news-arpa-lm-6cab3a3d4f6b9d048550.js",
-      "path---news-arpa-lm-6cab3a3d4f6b9d048550.js.map"
+      "path---news-arpa-lm-3db0faee58903ff6d832.js",
+      "path---news-arpa-lm-3db0faee58903ff6d832.js.map"
     ],
     "path---about": [
-      "path---about-a5f1f099224b37440889.js",
-      "path---about-a5f1f099224b37440889.js.map"
+      "path---about-b7cb1144a433f1e6f247.js",
+      "path---about-b7cb1144a433f1e6f247.js.map"
     ]
   }
 }

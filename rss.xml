@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The WordTree Foundation]]></title><description><![CDATA[The WordTree Foundation studies the relationships between books, with a special interest in LDS scripture such as the Book of Mormon.]]></description><link>http://blog.wordtree.org</link><generator>RSS for Node</generator><lastBuildDate>Mon, 05 Mar 2018 06:24:12 GMT</lastBuildDate><item><title><![CDATA[Site Update]]></title><description><![CDATA[After 3 years of quietude, we've updated the website to make it easier for you to see what WordTree is working on, to find what you're looking for, and to contribute to projects you find interesting.]]></description><link>http://blog.wordtree.org/news/site-update</link><guid isPermaLink="false">http://blog.wordtree.org/news/site-update</guid><pubDate>Sun, 04 Mar 2018 19:59:15 GMT</pubDate><content:encoded>&lt;p&gt;We’ve updated the website!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The WordTree Foundation]]></title><description><![CDATA[The WordTree Foundation studies the relationships between books, with a special interest in LDS scripture such as the Book of Mormon.]]></description><link>http://wordtree.org</link><generator>RSS for Node</generator><lastBuildDate>Fri, 26 Jul 2019 04:56:46 GMT</lastBuildDate><item><title><![CDATA[Fast N-gram Tool]]></title><description><![CDATA[We've built some fast rust-based n-gram research tools for the Mac OS, Linux, or Windows command line.]]></description><link>http://wordtree.org/news/ngram-tools</link><guid isPermaLink="false">http://wordtree.org/news/ngram-tools</guid><pubDate>Thu, 25 Jul 2019 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;One of our goals at WordTree Foundation is to make it easier for anyone with an interest in literary archeology to dive in and test hypotheses. If that’s you, the &lt;a href=&quot;https://github.com/wordtreefoundation/ngram-tools&quot;&gt;ngrams&lt;/a&gt; command-line tool is something you can use to compare n-grams within books to see if small portions of any two (English) books overlap.&lt;/p&gt;
+&lt;p&gt;The basic idea is this: if two books (or authors) were inspired by a common source, or if one book (or author) was inspired by the other, then there is likely to be some unusual words or phrases that “stand out,” statistically speaking.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/wordtreefoundation/ngram-tools&quot;&gt;ngrams&lt;/a&gt; tool is a &lt;em&gt;very fast&lt;/em&gt; implementation of an ngram counter. It’s written using the Rust programming language, which is known as one of the fastest, safest languages in today’s language ecosystem. It takes &lt;a href=&quot;https://en.wikipedia.org/wiki/ASCII&quot;&gt;ascii&lt;/a&gt; encoded text as input, cleans it up, iterates over windows of size N (for whatever value of N you want—e.g. 4 is a reasonable window size), and then counts the N-grams.&lt;/p&gt;
+&lt;p&gt;Then, using &lt;code class=&quot;language-text&quot;&gt;client / server mode&lt;/code&gt; you can query for n-grams that match between two or more books.&lt;/p&gt;
+&lt;p&gt;If you’re curious, this tool is similar to the &lt;a href=&quot;using-textgrams-jl&quot;&gt;TextGrams.jl&lt;/a&gt; tool we previously published, but uses less memory and therefore can load a larger baseline into memory on a single machine.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&quot;https://github.com/wordtreefoundation/ngram-tools&quot;&gt;ngram-tools&lt;/a&gt; github page for usage details.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Site Update]]></title><description><![CDATA[After 3 years of quietude, we've updated the website to make it easier for you to see what WordTree is working on, to find what you're looking for, and to contribute to projects you find interesting.]]></description><link>http://wordtree.org/news/site-update</link><guid isPermaLink="false">http://wordtree.org/news/site-update</guid><pubDate>Sun, 04 Mar 2018 19:59:15 GMT</pubDate><content:encoded>&lt;p&gt;We’ve updated the website!&lt;/p&gt;
 &lt;p&gt;Previously, we had a blog (that was starting to get a bit crusty…) hosted at (wordtree.org)[http://wordtree.org] and for several years now, we’ve been wanting to do a bit more with the website.&lt;/p&gt;
 &lt;p&gt;First of all, we want to showcase some of the things we’ve done in the past, and make it easier to access the information and resources that WordTree provides. In particular, we’ve highlighted 3 of the things we’ve done that we think might be useful to you:&lt;/p&gt;
 &lt;div style=&quot;padding-left: 4.5em&quot;&gt;
@@ -10,15 +15,15 @@
 &lt;p&gt;A resource for computer-aided studies of the Book of Mormon. Contains a command-line tool (Linux/MacOS/Windows) that can be used to find specific verses across multiple editions, or produce full copies (with our without chapter/verse annotations) of each edition.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Second, we’re changing the site around so that the blog is not the only thing visible. We’ll be working on providing APIs, data, and new and interesting information about the Book of Mormon. We’ll highlight some of these as they become ready.&lt;/p&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[DIY Mosiah Priority with BomDB]]></title><description><![CDATA[We recently created BomDB as a tool for Book of Mormon researchers. This post shows how to use it to replicate some of the analysis that led to the Mosiah Priority hypothesis. This is especially for you if you like to do-it-yourself for the sake of skeptical inquiry.]]></description><link>http://blog.wordtree.org/news/diy-mosiah-priority</link><guid isPermaLink="false">http://blog.wordtree.org/news/diy-mosiah-priority</guid><pubDate>Fri, 17 Apr 2015 22:35:19 GMT</pubDate><content:encoded>&lt;p&gt;We recently created &lt;a href=&quot;https://github.com/wordtreefoundation/bomdb&quot;&gt;BomDB&lt;/a&gt; as a tool for Book of Mormon researchers. This post shows how to use it to replicate some of the analysis that led to the Mosiah Priority hypothesis. This is especially for you if you like to do-it-yourself for the sake of skeptical inquiry.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[DIY Mosiah Priority with BomDB]]></title><description><![CDATA[We recently created BomDB as a tool for Book of Mormon researchers. This post shows how to use it to replicate some of the analysis that led to the Mosiah Priority hypothesis. This is especially for you if you like to do-it-yourself for the sake of skeptical inquiry.]]></description><link>http://wordtree.org/news/diy-mosiah-priority</link><guid isPermaLink="false">http://wordtree.org/news/diy-mosiah-priority</guid><pubDate>Fri, 17 Apr 2015 22:35:19 GMT</pubDate><content:encoded>&lt;p&gt;We recently created &lt;a href=&quot;https://github.com/wordtreefoundation/bomdb&quot;&gt;BomDB&lt;/a&gt; as a tool for Book of Mormon researchers. This post shows how to use it to replicate some of the analysis that led to the Mosiah Priority hypothesis. This is especially for you if you like to do-it-yourself for the sake of skeptical inquiry.&lt;/p&gt;
 &lt;p&gt;Brent Metcalfe wrote a seminal chapter of New Approaches to the Book of Mormon in 1993 called &lt;a href=&quot;http://signaturebookslibrary.org/new-approaches-to-the-book-of-mormon-10/&quot;&gt;The Priority of Mosiah&lt;/a&gt;. In it, he convincingly shows that Mosiah was written &lt;em&gt;first&lt;/em&gt;, prior to 1st Nephi, and one of the techniques used was a simple wordcount of the occurrences of “wherefore” and “therefore” throughout the Book of Mormon.&lt;/p&gt;
 &lt;p&gt;We can use &lt;a href=&quot;https://github.com/wordtreefoundation/bomdb&quot;&gt;BomDB&lt;/a&gt; (a command-line tool and Ruby gem that contains several editions of the Book of Mormon) to replicate Metcalfe’s work and even further it.&lt;/p&gt;
 &lt;p&gt;First, let’s get some raw data to work with. We’ll count up the number of “wherefore” and “therefore” occurrences in each book of the Book of Mormon, and print it out as text:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;require &apos;bomdb&apos; # version 0.6.2
-require &apos;json&apos;
+      &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;require &amp;#39;bomdb&amp;#39; # version 0.6.2
+require &amp;#39;json&amp;#39;
 
-q = BomDB::Query.new(exclude: &apos;Bible&apos;)
+q = BomDB::Query.new(exclude: &amp;#39;Bible&amp;#39;)
 
 data = q.books.map do |book, content|
   wordcount = content.scan(/ +/).size
@@ -28,17 +33,17 @@ data = q.books.map do |book, content|
 end
 
 labels, wherefores, therefores = data.transpose
-puts &quot;Labels: #{labels.to_json}&quot;
-puts &quot;Wherefores: #{wherefores.to_json}&quot;
-puts &quot;Therefores: #{wherefores.to_json}&quot;&lt;/code&gt;&lt;/pre&gt;
+puts &amp;quot;Labels: #{labels.to_json}&amp;quot;
+puts &amp;quot;Wherefores: #{wherefores.to_json}&amp;quot;
+puts &amp;quot;Therefores: #{wherefores.to_json}&amp;quot;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;Note that the &lt;code&gt;BomDB::Query&lt;/code&gt; above handily excludes Biblical chapters and verses from our analysis using &lt;code&gt;exclude: &apos;Bible-OT&apos;&lt;/code&gt;. Next, we iterate over each book and divide the number of times we see ‘wherefore’ by the total number of words in the book (e.g. 1 Nephi). We do the same for ‘therefore’. Finally, &lt;code&gt;transpose&lt;/code&gt; takes our array-of-arrays and turns it back in to 3 arrays: the labels, the normalized ‘wherefore’ counts, and the normalized ‘therefore’ counts.&lt;/p&gt;
+&lt;p&gt;Note that the &lt;code class=&quot;language-text&quot;&gt;BomDB::Query&lt;/code&gt; above handily excludes Biblical chapters and verses from our analysis using &lt;code class=&quot;language-text&quot;&gt;exclude: &amp;#39;Bible-OT&amp;#39;&lt;/code&gt;. Next, we iterate over each book and divide the number of times we see ‘wherefore’ by the total number of words in the book (e.g. 1 Nephi). We do the same for ‘therefore’. Finally, &lt;code class=&quot;language-text&quot;&gt;transpose&lt;/code&gt; takes our array-of-arrays and turns it back in to 3 arrays: the labels, the normalized ‘wherefore’ counts, and the normalized ‘therefore’ counts.&lt;/p&gt;
 &lt;p&gt;Here’s what the output looks like:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;Labels: [&quot;1 Nephi&quot;,&quot;2 Nephi&quot;,&quot;Jacob&quot;,&quot;Enos&quot;,
-  &quot;Jarom&quot;,&quot;Omni&quot;,&quot;Words of Mormon&quot;,&quot;Mosiah&quot;,
-  &quot;Alma&quot;,&quot;Helaman&quot;,&quot;3 Nephi&quot;,&quot;4 Nephi&quot;,&quot;Mormon&quot;,
-  &quot;Ether&quot;,&quot;Moroni&quot;]
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Labels: [&amp;quot;1 Nephi&amp;quot;,&amp;quot;2 Nephi&amp;quot;,&amp;quot;Jacob&amp;quot;,&amp;quot;Enos&amp;quot;,
+  &amp;quot;Jarom&amp;quot;,&amp;quot;Omni&amp;quot;,&amp;quot;Words of Mormon&amp;quot;,&amp;quot;Mosiah&amp;quot;,
+  &amp;quot;Alma&amp;quot;,&amp;quot;Helaman&amp;quot;,&amp;quot;3 Nephi&amp;quot;,&amp;quot;4 Nephi&amp;quot;,&amp;quot;Mormon&amp;quot;,
+  &amp;quot;Ether&amp;quot;,&amp;quot;Moroni&amp;quot;]
 Wherefores: [0.00426,0.00705,0.00581,0.00515,0.00411,0.00429,
   0.00579,0.0,4.0e-05,0.0,0.00012,0.0,0.0,0.00378,0.00627]
 Therefores: [0.00426,0.00705,0.00581,0.00515,0.00411,0.00429,
@@ -48,7 +53,7 @@ Therefores: [0.00426,0.00705,0.00581,0.00515,0.00411,0.00429,
 &lt;p&gt;Since we’ll be doing more than comparing ‘wherefore’ and ‘therefore’, let’s make a method that compares any number of words and their frequencies. Basically, this is a generalized version of the code above (note, this requires Ruby 2.1 or above):&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;def compare_frequencies(words:, group_by: :books, range: nil)
-  BomDB::Query.new(range: range, exclude: &apos;Bible-OT&apos;).
+  BomDB::Query.new(range: range, exclude: &amp;#39;Bible-OT&amp;#39;).
   send(group_by).map do |heading, content|
     wordcount = content.scan(/ +/).size
     frequencies = words.map do |word|
@@ -60,13 +65,13 @@ end&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;Now, we can give it a set of words, and we get the same thing as above:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;compare_frequencies([&quot;wherefore&quot;, &quot;therefore&quot;])&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;compare_frequencies([&amp;quot;wherefore&amp;quot;, &amp;quot;therefore&amp;quot;])&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;Additionally, we need a method that turns our data into a javascript chart using Highcharts:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;def make_chart(words:, group_by: :books, range: nil,
-  title: &quot;Chart&quot;, subtitle: nil, labels: [], xtitle: nil, ytitle: nil,
-  tooltip: &apos; occurrences per word&apos;, placeholder: &apos;PLACEHOLDER&apos;, height: 400)
+  title: &amp;quot;Chart&amp;quot;, subtitle: nil, labels: [], xtitle: nil, ytitle: nil,
+  tooltip: &amp;#39; occurrences per word&amp;#39;, placeholder: &amp;#39;PLACEHOLDER&amp;#39;, height: 400)
   labels, *data = compare_frequencies(words: words, group_by: group_by, range: range)
 
   series = words.zip(data).map do |word, datapoints|
@@ -102,9 +107,9 @@ end&lt;/code&gt;&lt;/pre&gt;
         valueSuffix: tooltip
     },
     legend: {
-        layout: &apos;vertical&apos;,
-        align: &apos;right&apos;,
-        verticalAlign: &apos;middle&apos;,
+        layout: &amp;#39;vertical&amp;#39;,
+        align: &amp;#39;right&amp;#39;,
+        verticalAlign: &amp;#39;middle&amp;#39;,
         borderWidth: 0
     },
     series: series
@@ -114,38 +119,38 @@ end&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Lastly, a helper method to generate the embedded script tags for this blog:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;def script_chart(**args)
-  &quot;&lt;script&gt;&quot; +
-    &quot;var div = document.createElement(&apos;div&apos;), &quot; +
-        &quot;script = document.scripts[document.scripts.length - 1]; &quot; +
-    &quot;script.parentElement.insertBefore(div, script); &quot; +
-    &quot;new Highcharts.Chart(&quot; + 
-      make_chart(**args).to_json.gsub(&apos;&quot;PLACEHOLDER&quot;&apos;, &apos;div&apos;) +
-    &quot;);&lt;/script&gt;&quot;
+  &amp;quot;&amp;lt;script&amp;gt;&amp;quot; +
+    &amp;quot;var div = document.createElement(&amp;#39;div&amp;#39;), &amp;quot; +
+        &amp;quot;script = document.scripts[document.scripts.length - 1]; &amp;quot; +
+    &amp;quot;script.parentElement.insertBefore(div, script); &amp;quot; +
+    &amp;quot;new Highcharts.Chart(&amp;quot; + 
+      make_chart(**args).to_json.gsub(&amp;#39;&amp;quot;PLACEHOLDER&amp;quot;&amp;#39;, &amp;#39;div&amp;#39;) +
+    &amp;quot;);&amp;lt;/script&amp;gt;&amp;quot;
 end&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;When we string this together,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;puts script_chart(
-  title: &quot;Wherefores &amp; Therefores Per Word&quot;,
-  subtitle: &quot;in the Book of Mormon&quot;,
-  xtitle: &quot;Books in the Book of Mormon&quot;,
-  ytitle: &quot;Normalized Word Count&quot;,
-  words: [&quot;wherefore&quot;, &quot;therefore&quot;]
+  title: &amp;quot;Wherefores &amp;amp; Therefores Per Word&amp;quot;,
+  subtitle: &amp;quot;in the Book of Mormon&amp;quot;,
+  xtitle: &amp;quot;Books in the Book of Mormon&amp;quot;,
+  ytitle: &amp;quot;Normalized Word Count&amp;quot;,
+  words: [&amp;quot;wherefore&amp;quot;, &amp;quot;therefore&amp;quot;]
 )&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;Here’s what we get:&lt;/p&gt;
 &lt;script&gt;var div = document.createElement(&apos;div&apos;), script = document.scripts[document.scripts.length - 1]; script.parentElement.insertBefore(div, script); new Highcharts.Chart({&quot;chart&quot;:{&quot;renderTo&quot;:div,&quot;height&quot;:400},&quot;title&quot;:{&quot;text&quot;:&quot;Wherefores &amp; Therefores Per Word&quot;,&quot;x&quot;:-20},&quot;subtitle&quot;:{&quot;text&quot;:&quot;in the Book of Mormon&quot;,&quot;x&quot;:-20},&quot;xAxis&quot;:{&quot;categories&quot;:[&quot;1 Nephi&quot;,&quot;2 Nephi&quot;,&quot;Jacob&quot;,&quot;Enos&quot;,&quot;Jarom&quot;,&quot;Omni&quot;,&quot;Words of Mormon&quot;,&quot;Mosiah&quot;,&quot;Alma&quot;,&quot;Helaman&quot;,&quot;3 Nephi&quot;,&quot;4 Nephi&quot;,&quot;Mormon&quot;,&quot;Ether&quot;,&quot;Moroni&quot;],&quot;title&quot;:{&quot;text&quot;:&quot;Books in the Book of Mormon&quot;}},&quot;yAxis&quot;:{&quot;min&quot;:0,&quot;title&quot;:{&quot;text&quot;:&quot;Normalized Word Count&quot;}},&quot;tooltip&quot;:{&quot;formatter&quot;:function() { return &quot;&quot; + this.point.count + &quot; occurrences / &quot; + this.point.total + &quot; total words&quot; }},&quot;legend&quot;:{&quot;layout&quot;:&quot;vertical&quot;,&quot;align&quot;:&quot;right&quot;,&quot;verticalAlign&quot;:&quot;middle&quot;,&quot;borderWidth&quot;:0},&quot;series&quot;:[{&quot;name&quot;:&quot;wherefore&quot;,&quot;data&quot;:[{&quot;total&quot;:23570,&quot;count&quot;:101,&quot;y&quot;:0.004285108188375053},{&quot;total&quot;:18905,&quot;count&quot;:130,&quot;y&quot;:0.006876487701666226},{&quot;total&quot;:9125,&quot;count&quot;:53,&quot;y&quot;:0.005808219178082192},{&quot;total&quot;:1165,&quot;count&quot;:6,&quot;y&quot;:0.005150214592274678},{&quot;total&quot;:730,&quot;count&quot;:3,&quot;y&quot;:0.00410958904109589},{&quot;total&quot;:1398,&quot;count&quot;:6,&quot;y&quot;:0.004291845493562232},{&quot;total&quot;:864,&quot;count&quot;:5,&quot;y&quot;:0.005787037037037037},{&quot;total&quot;:30223,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:85236,&quot;count&quot;:3,&quot;y&quot;:3.519639588906096e-05},{&quot;total&quot;:20522,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:24538,&quot;count&quot;:1,&quot;y&quot;:4.0753117613497433e-05},{&quot;total&quot;:1947,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:9446,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:16678,&quot;count&quot;:63,&quot;y&quot;:0.0037774313466842546},{&quot;total&quot;:6117,&quot;count&quot;:38,&quot;y&quot;:0.006212195520680072}]},{&quot;name&quot;:&quot;therefore&quot;,&quot;data&quot;:[{&quot;total&quot;:23570,&quot;count&quot;:13,&quot;y&quot;:0.0005515485787017395},{&quot;total&quot;:18905,&quot;count&quot;:6,&quot;y&quot;:0.0003173763554615181},{&quot;total&quot;:9125,&quot;count&quot;:1,&quot;y&quot;:0.00010958904109589041},{&quot;total&quot;:1165,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:730,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1398,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:864,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:30223,&quot;count&quot;:122,&quot;y&quot;:0.004036660821228865},{&quot;total&quot;:85236,&quot;count&quot;:288,&quot;y&quot;:0.0033788540053498522},{&quot;total&quot;:20522,&quot;count&quot;:63,&quot;y&quot;:0.003069876230386902},{&quot;total&quot;:24538,&quot;count&quot;:85,&quot;y&quot;:0.003464014997147282},{&quot;total&quot;:1947,&quot;count&quot;:5,&quot;y&quot;:0.0025680534155110425},{&quot;total&quot;:9446,&quot;count&quot;:22,&quot;y&quot;:0.0023290281600677537},{&quot;total&quot;:16678,&quot;count&quot;:26,&quot;y&quot;:0.0015589399208538195},{&quot;total&quot;:6117,&quot;count&quot;:0,&quot;y&quot;:0.0}]}]});&lt;/script&gt;
 &lt;p&gt;Ether is really interesting. It’s the only book that has a substantial number of ‘wherefores’ &lt;strong&gt;and&lt;/strong&gt; ‘therefores’. If the Book of Mormon had two or more authors, perhaps we would expect one author to be favoring ‘wherefore’, and another author favoring ‘therefore’, and so we would expect a clean break. On the other hand, if there is one author (i.e. Joseph Smith) whose vocabulary and word preference is changing over time, we’d expect a smooth transition.&lt;/p&gt;
-&lt;p&gt;Using our &lt;code&gt;compare_frequencies&lt;/code&gt; method above, let’s generate a chart and zoom in on Ether:&lt;/p&gt;
+&lt;p&gt;Using our &lt;code class=&quot;language-text&quot;&gt;compare_frequencies&lt;/code&gt; method above, let’s generate a chart and zoom in on Ether:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;puts script_chart(
-  range: &apos;Ether 1-15&apos;,
+  range: &amp;#39;Ether 1-15&amp;#39;,
   group_by: :chapters,
-  title: &quot;Wherefores &amp; Therefores Per Word in Ether&quot;,
-  subtitle: &quot;in the Book of Mormon&quot;,
-  xtitle: &quot;Chapters in Ether&quot;,
-  ytitle: &quot;Normalized Word Count&quot;,
-  words: [&quot;wherefore&quot;, &quot;therefore&quot;]
+  title: &amp;quot;Wherefores &amp;amp; Therefores Per Word in Ether&amp;quot;,
+  subtitle: &amp;quot;in the Book of Mormon&amp;quot;,
+  xtitle: &amp;quot;Chapters in Ether&amp;quot;,
+  ytitle: &amp;quot;Normalized Word Count&amp;quot;,
+  words: [&amp;quot;wherefore&amp;quot;, &amp;quot;therefore&amp;quot;]
 )&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;Here’s what it looks like:&lt;/p&gt;
@@ -154,11 +159,11 @@ end&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;What about other words? Metcalfe mentions ‘whoso’ and ‘whosoever’. Let’s check these out:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;puts script_chart(
-  title: &quot;Whosos &amp; Whosoevers Per Word&quot;,
-  subtitle: &quot;in the Book of Mormon&quot;,
-  xtitle: &quot;Books in the Book of Mormon&quot;,
-  ytitle: &quot;Normalized Word Count&quot;,
-  words: [&quot;whoso\\b&quot;, &quot;whosoever&quot;]
+  title: &amp;quot;Whosos &amp;amp; Whosoevers Per Word&amp;quot;,
+  subtitle: &amp;quot;in the Book of Mormon&amp;quot;,
+  xtitle: &amp;quot;Books in the Book of Mormon&amp;quot;,
+  ytitle: &amp;quot;Normalized Word Count&amp;quot;,
+  words: [&amp;quot;whoso\\b&amp;quot;, &amp;quot;whosoever&amp;quot;]
 )&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;And the resulting chart:&lt;/p&gt;
@@ -168,7 +173,7 @@ end&lt;/code&gt;&lt;/pre&gt;
 &lt;script&gt;var div = document.createElement(&apos;div&apos;), script = document.scripts[document.scripts.length - 1]; script.parentElement.insertBefore(div, script); new Highcharts.Chart({&quot;chart&quot;:{&quot;renderTo&quot;:div,&quot;height&quot;:400},&quot;title&quot;:{&quot;text&quot;:&quot;Whosos &amp; Whosoevers Per Word in 3rd Nephi&quot;,&quot;x&quot;:-20},&quot;subtitle&quot;:{&quot;text&quot;:null,&quot;x&quot;:-20},&quot;xAxis&quot;:{&quot;categories&quot;:[1,2,3,4,5,6,7,8,9,10,11,12,15,16,17,18,19,20,21,23,26,27,28,29,30],&quot;title&quot;:{&quot;text&quot;:&quot;Chapters in 3rd Nephi&quot;}},&quot;yAxis&quot;:{&quot;min&quot;:0,&quot;title&quot;:{&quot;text&quot;:&quot;Normalized Word Count&quot;}},&quot;tooltip&quot;:{&quot;formatter&quot;:function() { return &quot;&quot; + this.point.count + &quot; occurrences / &quot; + this.point.total + &quot; total words&quot; }},&quot;legend&quot;:{&quot;layout&quot;:&quot;vertical&quot;,&quot;align&quot;:&quot;right&quot;,&quot;verticalAlign&quot;:&quot;middle&quot;,&quot;borderWidth&quot;:0},&quot;series&quot;:[{&quot;name&quot;:&quot;whoso&quot;,&quot;data&quot;:[{&quot;total&quot;:1333,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:768,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1354,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1513,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:929,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1193,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1133,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:869,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:966,&quot;count&quot;:2,&quot;y&quot;:0.002070393374741201},{&quot;total&quot;:843,&quot;count&quot;:1,&quot;y&quot;:0.0011862396204033216},{&quot;total&quot;:1434,&quot;count&quot;:6,&quot;y&quot;:0.0041841004184100415},{&quot;total&quot;:397,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:727,&quot;count&quot;:1,&quot;y&quot;:0.001375515818431912},{&quot;total&quot;:829,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:871,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1346,&quot;count&quot;:2,&quot;y&quot;:0.0014858841010401188},{&quot;total&quot;:1229,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1371,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:956,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:414,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:779,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1285,&quot;count&quot;:2,&quot;y&quot;:0.0015564202334630351},{&quot;total&quot;:1450,&quot;count&quot;:1,&quot;y&quot;:0.000689655172413793},{&quot;total&quot;:396,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:129,&quot;count&quot;:0,&quot;y&quot;:0.0}]},{&quot;name&quot;:&quot;whosoever&quot;,&quot;data&quot;:[{&quot;total&quot;:1333,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:768,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1354,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1513,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:929,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1193,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1133,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:869,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:966,&quot;count&quot;:1,&quot;y&quot;:0.0010351966873706005},{&quot;total&quot;:843,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1434,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:397,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:727,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:829,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:871,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1346,&quot;count&quot;:1,&quot;y&quot;:0.0007429420505200594},{&quot;total&quot;:1229,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1371,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:956,&quot;count&quot;:2,&quot;y&quot;:0.0020920502092050207},{&quot;total&quot;:414,&quot;count&quot;:1,&quot;y&quot;:0.0024154589371980675},{&quot;total&quot;:779,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1285,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1450,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:396,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:129,&quot;count&quot;:0,&quot;y&quot;:0.0}]}]});&lt;/script&gt;
 &lt;p&gt;There’s no clear trend-line up or down. Many of these verses are taken from the New Testament, where the language of Jesus is borrowed. It’s interesting to see that in the Book of Mormon, Jesus uses ‘whoso’ and ‘whosoever’ interchangeably:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;bomdb show --search &apos;whoso&apos; &apos;3 Nephi 1-30&apos;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;bomdb show --search &amp;#39;whoso&amp;#39; &amp;#39;3 Nephi 1-30&amp;#39;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;&lt;span style=&quot;color:#9fa01c&quot;&gt;3 Nephi&lt;/span&gt;&lt;span style=&quot;color:#050505&quot;&gt;
 &lt;/span&gt;&lt;span style=&quot;color:#2fb41d&quot;&gt;9&lt;/span&gt;&lt;span style=&quot;color:#050505&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color:#2fe71a&quot;&gt;14&lt;/span&gt;&lt;span style=&quot;color:#050505&quot;&gt;
@@ -193,17 +198,17 @@ baptized with fire and with the Holy Ghost--and they knew it not.&lt;/span&gt;&l
 &lt;p&gt;Here’s another interesting one we found. Searching for occurrences of ‘House of Israel’, the Book of Mormon distributes them in a similar fashion as ‘wherefore’ and ‘whoso’:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-ruby&quot;&gt;&lt;code class=&quot;language-language-ruby&quot;&gt;puts script_chart(
-  title: &quot;&apos;House of Israel&apos; Per Word&quot;,
-  subtitle: &quot;in the Book of Mormon&quot;,
-  xtitle: &quot;Books in the Book of Mormon&quot;,
-  ytitle: &quot;Normalized Word Count&quot;,
-  words: [&quot;house of israel&quot;]
+  title: &amp;quot;&amp;#39;House of Israel&amp;#39; Per Word&amp;quot;,
+  subtitle: &amp;quot;in the Book of Mormon&amp;quot;,
+  xtitle: &amp;quot;Books in the Book of Mormon&amp;quot;,
+  ytitle: &amp;quot;Normalized Word Count&amp;quot;,
+  words: [&amp;quot;house of israel&amp;quot;]
 )&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;script&gt;var div = document.createElement(&apos;div&apos;), script = document.scripts[document.scripts.length - 1]; script.parentElement.insertBefore(div, script); new Highcharts.Chart({&quot;chart&quot;:{&quot;renderTo&quot;:div,&quot;height&quot;:400},&quot;title&quot;:{&quot;text&quot;:&quot;&apos;House of Israel&apos; Per Word&quot;,&quot;x&quot;:-20},&quot;subtitle&quot;:{&quot;text&quot;:&quot;in the Book of Mormon&quot;,&quot;x&quot;:-20},&quot;xAxis&quot;:{&quot;categories&quot;:[&quot;1 Nephi&quot;,&quot;2 Nephi&quot;,&quot;Jacob&quot;,&quot;Enos&quot;,&quot;Jarom&quot;,&quot;Omni&quot;,&quot;Words of Mormon&quot;,&quot;Mosiah&quot;,&quot;Alma&quot;,&quot;Helaman&quot;,&quot;3 Nephi&quot;,&quot;4 Nephi&quot;,&quot;Mormon&quot;,&quot;Ether&quot;,&quot;Moroni&quot;],&quot;title&quot;:{&quot;text&quot;:&quot;Books in the Book of Mormon&quot;}},&quot;yAxis&quot;:{&quot;min&quot;:0,&quot;title&quot;:{&quot;text&quot;:&quot;Normalized Word Count&quot;}},&quot;tooltip&quot;:{&quot;formatter&quot;:function() { return &quot;&quot; + this.point.count + &quot; occurrences / &quot; + this.point.total + &quot; total words&quot; }},&quot;legend&quot;:{&quot;layout&quot;:&quot;vertical&quot;,&quot;align&quot;:&quot;right&quot;,&quot;verticalAlign&quot;:&quot;middle&quot;,&quot;borderWidth&quot;:0},&quot;series&quot;:[{&quot;name&quot;:&quot;house of israel&quot;,&quot;data&quot;:[{&quot;total&quot;:23570,&quot;count&quot;:35,&quot;y&quot;:0.001484938481120068},{&quot;total&quot;:18905,&quot;count&quot;:19,&quot;y&quot;:0.0010050251256281408},{&quot;total&quot;:9125,&quot;count&quot;:5,&quot;y&quot;:0.000547945205479452},{&quot;total&quot;:1165,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:730,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:1398,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:864,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:30223,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:85236,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:20522,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:24538,&quot;count&quot;:37,&quot;y&quot;:0.001507865351699405},{&quot;total&quot;:1947,&quot;count&quot;:0,&quot;y&quot;:0.0},{&quot;total&quot;:9446,&quot;count&quot;:11,&quot;y&quot;:0.0011645140800338768},{&quot;total&quot;:16678,&quot;count&quot;:5,&quot;y&quot;:0.0002997961386257345},{&quot;total&quot;:6117,&quot;count&quot;:1,&quot;y&quot;:0.00016347882949158083}]}]});&lt;/script&gt;
 &lt;p&gt;Here again, it looks like the phrase “House of Israel” was first encountered in 3rd Nephi, and then favored through Moroni, 1st and 2nd Nephi, and finally Jacob. Its absence from Enos to Helaman is hard to explain without a dictation order that starts somewhere after Jacob and before 3rd Nephi.&lt;/p&gt;
 &lt;p&gt;If you have ideas to test, or want to replicate this work, give &lt;a href=&quot;https://github.com/wordtreefoundation/bomdb&quot;&gt;BomDB&lt;/a&gt; a try!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; 2015-04-18: These charts were including data from verses in 3 Nephi that were borrowed from the New Testament (ch. 12, 13, 14). Those data points have now been fixed.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using TextGrams.jl]]></title><description><![CDATA[A rundown of the use of TextGrams.jl, a library used to score the relatedness of 2 or more books based on the similarity of their ngrams.]]></description><link>http://blog.wordtree.org/news/using-textgrams-jl</link><guid isPermaLink="false">http://blog.wordtree.org/news/using-textgrams-jl</guid><pubDate>Sun, 29 Mar 2015 16:53:58 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/wordtreefoundation/TextGrams.jl&quot;&gt;TextGrams.jl&lt;/a&gt; is a library that we use to score the relatedness of 2 or more books based on their ngrams (i.e. phrases made up of “N” words in a row, where a useful value of N is 1 to about 4 or so).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; 2015-04-18: These charts were including data from verses in 3 Nephi that were borrowed from the New Testament (ch. 12, 13, 14). Those data points have now been fixed.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using TextGrams.jl]]></title><description><![CDATA[A rundown of the use of TextGrams.jl, a library used to score the relatedness of 2 or more books based on the similarity of their ngrams.]]></description><link>http://wordtree.org/news/using-textgrams-jl</link><guid isPermaLink="false">http://wordtree.org/news/using-textgrams-jl</guid><pubDate>Sun, 29 Mar 2015 16:53:58 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/wordtreefoundation/TextGrams.jl&quot;&gt;TextGrams.jl&lt;/a&gt; is a library that we use to score the relatedness of 2 or more books based on their ngrams (i.e. phrases made up of “N” words in a row, where a useful value of N is 1 to about 4 or so).&lt;/p&gt;
 &lt;p&gt;Here is a rundown of its use, from downloading books from archive.org to creating a baseline, and then comparing books.&lt;/p&gt;
 &lt;h3&gt;Prerequisites&lt;/h3&gt;
 &lt;p&gt;You should have &lt;a href=&quot;http://julialang.org/downloads/&quot;&gt;julia&lt;/a&gt; installed, and optionally ruby for the following downloading books step.&lt;/p&gt;
@@ -213,23 +218,23 @@ baptized with fire and with the Holy Ghost--and they knew it not.&lt;/span&gt;&l
       &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;$ gem install archdown
 $ archdown -y 1750-1850&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;It will create a ‘library’ folder with many 2-letter folders inside, and another set of 2-letter folders inside those. Each book will be downloaded to the folder corresponding to the first 2 and last 2 letters of its archive.org id. For instance, &lt;a href=&quot;https://archive.org/details/latewarbetween_00hunt&quot;&gt;latewarbetween_00hunt&lt;/a&gt; will download to &lt;code&gt;./library/la/nt/&lt;/code&gt;. The reason we do this is there are some archive.org id prefixes (e.g. &lt;em&gt;jstor&lt;/em&gt;) that have an abundant set of files associated with them, so we need a second level of folders.&lt;/p&gt;
+&lt;p&gt;It will create a ‘library’ folder with many 2-letter folders inside, and another set of 2-letter folders inside those. Each book will be downloaded to the folder corresponding to the first 2 and last 2 letters of its archive.org id. For instance, &lt;a href=&quot;https://archive.org/details/latewarbetween_00hunt&quot;&gt;latewarbetween_00hunt&lt;/a&gt; will download to &lt;code class=&quot;language-text&quot;&gt;./library/la/nt/&lt;/code&gt;. The reason we do this is there are some archive.org id prefixes (e.g. &lt;em&gt;jstor&lt;/em&gt;) that have an abundant set of files associated with them, so we need a second level of folders.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; Downloading all books from 1750 to 1850 will probably take several days and 200 GB or so of space.&lt;/p&gt;
 &lt;h3&gt;Creating a Baseline&lt;/h3&gt;
 &lt;p&gt;The first thing to do once you have a lot of books is to create an ngram baseline. This is where we measure the “normal” frequency of each ngram in the English language during the period (i.e. the 19th century in our example).&lt;/p&gt;
 &lt;p&gt;It’s important to create a baseline so that, later, when we find matches between books (during the comparison step below) we can weight the matches by importance—the more rare the ngrams are in English, the more “significant” the match.&lt;/p&gt;
 &lt;p&gt;Let’s pick 100 books at random:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;find . -name &apos;*.txt&apos; | shuf -n 100 &gt; baseline-files.txt&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;find . -name &amp;#39;*.txt&amp;#39; | shuf -n 100 &amp;gt; baseline-files.txt&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;(&lt;em&gt;Note:&lt;/em&gt; &lt;code&gt;shuf&lt;/code&gt; is part of gnu core utils. On ubuntu, you can install it with &lt;code&gt;apt-get install coreutils&lt;/code&gt;; and on Mac OS, &lt;code&gt;brew install coreutils&lt;/code&gt;, but it will be called &lt;code&gt;gshuf&lt;/code&gt; instead.)&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;Note:&lt;/em&gt; &lt;code class=&quot;language-text&quot;&gt;shuf&lt;/code&gt; is part of gnu core utils. On ubuntu, you can install it with &lt;code class=&quot;language-text&quot;&gt;apt-get install coreutils&lt;/code&gt;; and on Mac OS, &lt;code class=&quot;language-text&quot;&gt;brew install coreutils&lt;/code&gt;, but it will be called &lt;code class=&quot;language-text&quot;&gt;gshuf&lt;/code&gt; instead.)&lt;/p&gt;
 &lt;p&gt;Now, let’s create a baseline with N set to 3 (i.e. this will include phrases of one, two, and three words):&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;julia baseline.jl -n 3 `cat baseline-files.txt` &gt; baseline.txt&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;julia baseline.jl -n 3 `cat baseline-files.txt` &amp;gt; baseline.txt&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;Great! Now we have a baseline to feed the compare.jl script.&lt;/p&gt;
 &lt;h3&gt;Comparing Books for Matching Ngrams&lt;/h3&gt;
-&lt;p&gt;Let’s say we have a large text, &lt;code&gt;book1.txt&lt;/code&gt; and we want to compare it with another, &lt;code&gt;book2.txt&lt;/code&gt;. Here’s how:&lt;/p&gt;
+&lt;p&gt;Let’s say we have a large text, &lt;code class=&quot;language-text&quot;&gt;book1.txt&lt;/code&gt; and we want to compare it with another, &lt;code class=&quot;language-text&quot;&gt;book2.txt&lt;/code&gt;. Here’s how:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;julia compare.jl -n 3 -b baseline.txt book1.txt X book2.txt&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
@@ -238,20 +243,20 @@ $ archdown -y 1750-1850&lt;/code&gt;&lt;/pre&gt;
 &lt;tr&gt;&lt;td&gt;1.05526&lt;/td&gt;&lt;td&gt;14.26820&lt;/td&gt;&lt;td&gt;1.93123&lt;/td&gt;&lt;td&gt;5905&lt;/td&gt;&lt;td&gt;70627&lt;/td&gt;&lt;td&gt;book1.txt&lt;/td&gt;&lt;td&gt;book2.txt&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;p&gt;We’ll talk more about what these results mean below.&lt;/p&gt;
-&lt;p&gt;The &lt;code&gt;X&lt;/code&gt; between &lt;code&gt;book1.txt&lt;/code&gt; and &lt;code&gt;book2.txt&lt;/code&gt; in the command above is significant. This is a special marker that indicates all files &lt;em&gt;before&lt;/em&gt; the &lt;code&gt;X&lt;/code&gt; are to be matched against all files &lt;em&gt;after&lt;/em&gt; the X. In our simple example, we’re just comparing one book against another, but using this &lt;code&gt;X&lt;/code&gt; as a separator, it is also easy to compare all books in, say, “set A” to all books in “set B”. It might look like this:&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; between &lt;code class=&quot;language-text&quot;&gt;book1.txt&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;book2.txt&lt;/code&gt; in the command above is significant. This is a special marker that indicates all files &lt;em&gt;before&lt;/em&gt; the &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; are to be matched against all files &lt;em&gt;after&lt;/em&gt; the X. In our simple example, we’re just comparing one book against another, but using this &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; as a separator, it is also easy to compare all books in, say, “set A” to all books in “set B”. It might look like this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;julia compare.jl -n 3 -b baseline.txt book1.txt book2.txt X bookA.txt bookB.txt&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;Which would compare all pairs, &lt;code&gt;book1 x bookA&lt;/code&gt;, &lt;code&gt;book1 x bookB&lt;/code&gt;, &lt;code&gt;book2 x bookA&lt;/code&gt;, and &lt;code&gt;book2 x bookB&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Let’s say we want a little more detail—like the actual ngrams that matched between the two books, for instance. We can use the &lt;code&gt;-s&lt;/code&gt; switch which is short for &lt;code&gt;--show-matches&lt;/code&gt;. In addition, we can pair it with &lt;code&gt;-t&lt;/code&gt; to set the threshold score for word matches. In this case, let’s make the minimum word match score &lt;em&gt;0.01&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;Which would compare all pairs, &lt;code class=&quot;language-text&quot;&gt;book1 x bookA&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;book1 x bookB&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;book2 x bookA&lt;/code&gt;, and &lt;code class=&quot;language-text&quot;&gt;book2 x bookB&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s say we want a little more detail—like the actual ngrams that matched between the two books, for instance. We can use the &lt;code class=&quot;language-text&quot;&gt;-s&lt;/code&gt; switch which is short for &lt;code class=&quot;language-text&quot;&gt;--show-matches&lt;/code&gt;. In addition, we can pair it with &lt;code class=&quot;language-text&quot;&gt;-t&lt;/code&gt; to set the threshold score for word matches. In this case, let’s make the minimum word match score &lt;em&gt;0.01&lt;/em&gt;:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-language-bash&quot;&gt;&lt;code class=&quot;language-language-bash&quot;&gt;julia compare.jl -n 3 -b baseline.txt -v -s -t 0.01 book1.txt X book2.txt&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;Now we get a lot more verbose output:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;Using baseline: baseline.txt
-Using files X: {&quot;book1.txt&quot;}
-Using files Y: {&quot;book2.txt&quot;}
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Using baseline: baseline.txt
+Using files X: {&amp;quot;book1.txt&amp;quot;}
+Using files Y: {&amp;quot;book2.txt&amp;quot;}
 Measuring baseline size...
   87097 ngrams
 elapsed time: 0.383290306 seconds (40527888 bytes allocated, 8.20% gc time)
@@ -282,10 +287,10 @@ Comparing... book1.txt x book2.txt&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;&lt;strong&gt;namey&lt;/strong&gt;: the name of document Y (filename).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Why break it down in this way? i.e. why not a single number representing the score? We’re still experimenting with the best formula to represent the relatedness between books. To normalize the score, the length of the books must be taken in to account somehow. We provide several “totals” so that we can experiment with different length-normalized scores. For instance, some possibilities:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;total_inv / (sizex + sizey)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;total_sqrt / sqrt(sizex**2 + sizey**2)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;If you copy the output of &lt;code&gt;compare.jl&lt;/code&gt; to a spreadsheet, each of these normalized scores and others can be easily experimented with.&lt;/p&gt;
-&lt;p&gt;We’ve found that books with a wordcount smaller than 20k are not reliably scored using the ngram matching method. Because natural language is a constantly evolving target, people independently generate some language phrases that are, by random chance, the same as what others generate. Therefore, not all matches can be indicators of a certain relationship between books.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Presentation: The Late War & The Book of Mormon]]></title><description><![CDATA[Duane Johnson gave a presentation to the Salt Lake City PostMormon group summarizing some of the similarities between The Late War and the Book of Mormon, as well as further research made since the original work in 2014]]></description><link>http://blog.wordtree.org/news/presentation-the-late-war-the-book-of-mormon</link><guid isPermaLink="false">http://blog.wordtree.org/news/presentation-the-late-war-the-book-of-mormon</guid><pubDate>Wed, 28 Jan 2015 05:42:51 GMT</pubDate><content:encoded>&lt;p&gt;I gave a presentation to the Salt Lake City PostMormon group a couple of weeks ago summarizing some of the similarities between The Late War and the Book of Mormon, as well as further research we’ve made since our original work a little over a year ago.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;total_inv / (sizex + sizey)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;total_sqrt / sqrt(sizex**2 + sizey**2)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you copy the output of &lt;code class=&quot;language-text&quot;&gt;compare.jl&lt;/code&gt; to a spreadsheet, each of these normalized scores and others can be easily experimented with.&lt;/p&gt;
+&lt;p&gt;We’ve found that books with a wordcount smaller than 20k are not reliably scored using the ngram matching method. Because natural language is a constantly evolving target, people independently generate some language phrases that are, by random chance, the same as what others generate. Therefore, not all matches can be indicators of a certain relationship between books.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Presentation: The Late War & The Book of Mormon]]></title><description><![CDATA[Duane Johnson gave a presentation to the Salt Lake City PostMormon group summarizing some of the similarities between The Late War and the Book of Mormon, as well as further research made since the original work in 2014]]></description><link>http://wordtree.org/news/presentation-the-late-war-the-book-of-mormon</link><guid isPermaLink="false">http://wordtree.org/news/presentation-the-late-war-the-book-of-mormon</guid><pubDate>Wed, 28 Jan 2015 05:42:51 GMT</pubDate><content:encoded>&lt;p&gt;I gave a presentation to the Salt Lake City PostMormon group a couple of weeks ago summarizing some of the similarities between The Late War and the Book of Mormon, as well as further research we’ve made since our original work a little over a year ago.&lt;/p&gt;
 &lt;p&gt;For the complete Comparison we published online, please see &lt;a href=&quot;http://wordtree.org/the-late-war&quot;&gt;wordtree.org/the-late-war&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The sound quality improves a little way in to the presentation.&lt;/p&gt;
 &lt;div&gt;
@@ -424,20 +429,20 @@ Comparing... book1.txt x book2.txt&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;So these are some of the books that we’ve since discovered and we’ve actually turned them into digital documents. These are a little bit harder to find, that’s why we didn’t have them in our original study. Many of them didn’t exist in archive.org’s stuff, and many of them, if they did at all, were very messy. When you do OCR, scans of documents, they end up with mistakes and it’s usually only about an 80% accuracy rate. And so it takes a lot of manual work to get these going. So this is the new set, and we could definitely use help in finding, identifying, or improving the scope and quality of documents that we have. We’ve made them publicly available here, so anyone can download them, study them, compute with them. Many of them are quite small. Our algorithm doesn’t really work with small texts. The problem with small texts is that the uncertainty increases. So if we find a match in a small text, it could mean something, but it also really might not mean something. Since that’s the case, we’ve had to prune the ones that aren’t very big.&lt;/p&gt;
 &lt;p&gt;So this is a preliminary result. We kind of wanted to look at the set of documents we have now, and what are the relationships that we see in them? The size of the circles is the size of the books. The width of the line is the relative strength of the connection. So you can see that The Late War was definitely inspired by The American Revolution which was written 14 years before. But the other ones, it’s not as clear. There are a lot of similar numbers. It’s not really clear yet, from this particular algorithm, if there’s a really strong connection. We do have some exciting things that are coming, but we don’t really have results to share right now. One of the things that we’ve really wanted to do, and that we’ve found a method to do, is studying synonyms. If you look at sentences and find similar words in the same sequence, if you find long matches of sequences, that’s also a very strong signal. We couldn’t do that with this study, because our ability to tell what was synonymous was limited. But there’s been some really cool research in vectorization of words, so you can take a word and translate it into a large dimensional space, and relate their meanings to one another now. It’s all open source, and it’s all available, so we’re going to do that next.&lt;/p&gt;
 &lt;p&gt;We have a little group—WordTree Foundation—we have a google group and a github account, where we contribute code and things like that. If any of you are interested, there are lots of interesting things to be done. We aren’t particularly—we’re kind of a loose-knit group, so it’s not like “if you join us you have to go do this.” It’s more of, “What’s your interest?” Maybe we have resources. Maybe someone is interested and they can do it with you. It’s a collective. We have about 20 members right now. So that’s what we’re doing next, and that’s where we are so far. Thank you.&lt;/p&gt;
-&lt;p&gt;[Q&amp;#x26;A]&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Understanding ARPA and Language Models]]></title><description><![CDATA[I started off today thinking I’d be able to transform a previous n-gram library we wrote in the Julia programming language over to KenLM, a very fast Language Model generator. Instead, I ended up spending most of the day learning about language models and data formats. I thought I’d pass along some of this information and any insights I’ve had.]]></description><link>http://blog.wordtree.org/news/arpa-lm</link><guid isPermaLink="false">http://blog.wordtree.org/news/arpa-lm</guid><pubDate>Sat, 11 Jan 2014 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Language Models are a better way of comparing phrase probabilities than n-gram frequencies.&lt;/p&gt;
+&lt;p&gt;[Q&amp;#x26;A]&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Understanding ARPA and Language Models]]></title><description><![CDATA[I started off today thinking I’d be able to transform a previous n-gram library we wrote in the Julia programming language over to KenLM, a very fast Language Model generator. Instead, I ended up spending most of the day learning about language models and data formats. I thought I’d pass along some of this information and any insights I’ve had.]]></description><link>http://wordtree.org/news/arpa-lm</link><guid isPermaLink="false">http://wordtree.org/news/arpa-lm</guid><pubDate>Sat, 11 Jan 2014 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Language Models are a better way of comparing phrase probabilities than n-gram frequencies.&lt;/p&gt;
 &lt;p&gt;At the WordTree Foundation, we’re exploring ways of mapping the similarities and influences among various books, with the Book of Mormon of special interest in this exploration. In the past, we’ve shown raw unconditional probabilities to be an interesting (albeit limited) way of scoring similarities among books. Our online publication of &lt;a href=&quot;/the-late-war&quot;&gt;A Comparison of The Book of Mormon and The Late War&lt;/a&gt; was the result of that original research.&lt;/p&gt;
 &lt;p&gt;I started off today thinking I’d be able to transform the &lt;a href=&quot;https://github.com/canadaduane/TextGrams.jl&quot;&gt;previous n-gram library&lt;/a&gt; we wrote in the Julia programming language over to KenLM, a very fast Language Model generator. Instead, I ended up spending most of the day learning about language models and data formats. I thought I’d pass along some of this information and any insights I’ve had.&lt;/p&gt;
 &lt;p&gt;First, a Language Model is far better than the pure N-gram (unconditional) probabilities we’ve been using at the WordTree Foundation up to this point. In particular, language models have a notion of &lt;em&gt;conditional probability&lt;/em&gt; which makes assessing probabilities of word occurrences in a text more accurate.&lt;/p&gt;
 &lt;p&gt;When I take a text like the Book of Mormon and pass it through &lt;a href=&quot;https://kheafield.com/code/kenlm/&quot;&gt;KenLM&lt;/a&gt;’s “lmplz” processor, it generates a file called an ARPA file. The ARPA file format looks like this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;\data\
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;\data\
 ngram 1=5776
 ngram 2=55566
 
 \1-grams:
--4.7039757 &lt;unk&gt; 0
-0 &lt;s&gt; -1.505814
--4.554822 &lt;/s&gt; 0
+-4.7039757 &amp;lt;unk&amp;gt; 0
+0 &amp;lt;s&amp;gt; -1.505814
+-4.554822 &amp;lt;/s&amp;gt; 0
 -1.7441652 the -1.075229
 -2.4278247 book -1.6445116
 -1.6198214 of -1.2298658
@@ -448,8 +453,8 @@ ngram 2=55566
 …
 
 \2-grams:
--0.000042455064 . &lt;/s&gt;
--1.9652246 &lt;s&gt; the
+-0.000042455064 . &amp;lt;/s&amp;gt;
+-1.9652246 &amp;lt;s&amp;gt; the
 -0.5145896 of the
 -1.5662498 mormon the
 -1.7051648 written the
@@ -463,7 +468,7 @@ ngram 2=55566
 
 \end\&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;It wasn’t obvious to me at first what these negative numbers were. It turns out they are &lt;em&gt;log probabilities&lt;/em&gt; in base 10. In other words, rather than saying “the chance of seeing ‘the’ is 0.018023”, the ARPA format uses &lt;code&gt;-1.7441652&lt;/code&gt; which means take “10” and raise it to the power of “-1.7441652” to get the probability (i.e. 0.018023). This form of representation for probabilities is usually more compact because probabilities can get very small (e.g. rather than writing “0.000000478630092” we can just write &lt;code&gt;-6.32&lt;/code&gt;). In addition, as a &lt;em&gt;log&lt;/em&gt; value, they naturally represent order of magnitude more prominently.&lt;/p&gt;
-&lt;p&gt;In an ARPA file, the unigrams (1-grams) are &lt;em&gt;unconditional probabilities&lt;/em&gt; while the N-grams with N of 2 or larger are &lt;em&gt;conditional probabilities&lt;/em&gt;. In other words, when we see “-1.7441652 the” in the 1-grams section, it is simply the log probability that the word &lt;code&gt;the&lt;/code&gt; will show up in the language, i.e. in mathematical notation, &lt;strong&gt;P&lt;/strong&gt;(&lt;em&gt;the&lt;/em&gt;), or “Probability of &lt;code&gt;the&lt;/code&gt;”. But in the 2-grams section, when we see “-0.5145896 of the”, this is the probability that &lt;code&gt;the&lt;/code&gt; will show up after &lt;code&gt;of&lt;/code&gt;, i.e. in mathematical notation, &lt;strong&gt;P&lt;/strong&gt;(&lt;em&gt;the&lt;/em&gt;|&lt;em&gt;of&lt;/em&gt;), or “Probability of &lt;code&gt;the&lt;/code&gt; given &lt;code&gt;of&lt;/code&gt;”.&lt;/p&gt;
+&lt;p&gt;It wasn’t obvious to me at first what these negative numbers were. It turns out they are &lt;em&gt;log probabilities&lt;/em&gt; in base 10. In other words, rather than saying “the chance of seeing ‘the’ is 0.018023”, the ARPA format uses &lt;code class=&quot;language-text&quot;&gt;-1.7441652&lt;/code&gt; which means take “10” and raise it to the power of “-1.7441652” to get the probability (i.e. 0.018023). This form of representation for probabilities is usually more compact because probabilities can get very small (e.g. rather than writing “0.000000478630092” we can just write &lt;code class=&quot;language-text&quot;&gt;-6.32&lt;/code&gt;). In addition, as a &lt;em&gt;log&lt;/em&gt; value, they naturally represent order of magnitude more prominently.&lt;/p&gt;
+&lt;p&gt;In an ARPA file, the unigrams (1-grams) are &lt;em&gt;unconditional probabilities&lt;/em&gt; while the N-grams with N of 2 or larger are &lt;em&gt;conditional probabilities&lt;/em&gt;. In other words, when we see “-1.7441652 the” in the 1-grams section, it is simply the log probability that the word &lt;code class=&quot;language-text&quot;&gt;the&lt;/code&gt; will show up in the language, i.e. in mathematical notation, &lt;strong&gt;P&lt;/strong&gt;(&lt;em&gt;the&lt;/em&gt;), or “Probability of &lt;code class=&quot;language-text&quot;&gt;the&lt;/code&gt;”. But in the 2-grams section, when we see “-0.5145896 of the”, this is the probability that &lt;code class=&quot;language-text&quot;&gt;the&lt;/code&gt; will show up after &lt;code class=&quot;language-text&quot;&gt;of&lt;/code&gt;, i.e. in mathematical notation, &lt;strong&gt;P&lt;/strong&gt;(&lt;em&gt;the&lt;/em&gt;|&lt;em&gt;of&lt;/em&gt;), or “Probability of &lt;code class=&quot;language-text&quot;&gt;the&lt;/code&gt; given &lt;code class=&quot;language-text&quot;&gt;of&lt;/code&gt;”.&lt;/p&gt;
 &lt;p&gt;There are three “special” words in a language model: &lt;strong&gt;&amp;#x3C;s&gt;&lt;/strong&gt;, &lt;strong&gt;&amp;#x3C;/s&gt;&lt;/strong&gt;, and &lt;strong&gt;&amp;#x3C;unk&gt;&lt;/strong&gt;. The &lt;strong&gt;&amp;#x3C;s&gt;&lt;/strong&gt; denotes the beginning of a sentence, and the &lt;strong&gt;&amp;#x3C;/s&gt;&lt;/strong&gt; denotes the end of a sentence. This differs from our original study where we had no concept of beginnings and ends of sentences—we just ignored sentence boundaries. The &lt;strong&gt;&amp;#x3C;unk&gt;&lt;/strong&gt; special word means “unknown” and is used in the language model to represent the probability of a word not in the model (I believe this is also known as “out of vocabulary” or OOV).&lt;/p&gt;
 &lt;p&gt;By using conditional probabilities, queries for phrases will result in probabilities that more accurately reflect the frequency or rarity of that phrase. Ultimately, this will lead to a more accurate scoring algorithm when comparing books and trying to uncover non-obvious relationships or influences among texts.&lt;/p&gt;</content:encoded></item></channel></rss>
