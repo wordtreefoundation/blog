@@ -14,7 +14,7 @@ description: "Book of Mormon Central claims that the first sentence of the Book 
 
 ## The Faithful View of "I, Nephi..."
 
-Book of Mormon Central wrote an article about the first sentence of the Book of Mormon, "I, Nephi, having been born of goodly parents..." The author links this style of writing to ancient kings, and uses this fascinating connection with our past to lend strength to the hypothesis that the Book of Mormon's origin is ancient.
+Book of Mormon Central wrote [an article](https://knowhy.bookofmormoncentral.org/knowhy/why-does-nephi-begin-by-saying-i-nephi) about the first sentence of the Book of Mormon, "I, Nephi, having been born of goodly parents..." The author links this style of writing to ancient kings, and uses this fascinating connection with our past to lend strength to the hypothesis that the Book of Mormon's origin is ancient.
 
 This is a wonderful, faithful hypothesis. There isn't anything wrong with it if you just want reasons to believe the Book of Mormon is holy.
 
@@ -22,9 +22,18 @@ One of the beautiful things about truth is that it is strengthened by inspection
 
 ## Another Hypothesis?
 
-Let's say you have another hypothesis: that the Book of Mormon was written in the 19th century. Your curiosity drives you to want to see deeply into this, and you're looking for tools. How would you go about testing this?
+Let's say you have another hypothesis: that maybe the Book of Mormon was written in the 19th century, rather than miraculously translated from an ancient source. Your curiosity drives you to want to see deeply into this, and you're looking for tools. How would you go about testing this?
 
 If the Book of Mormon were written in the 1800s, we might expect to see other books from its time with similar phrasing. Maybe "I, Nephi, having been born of goodly parents..." is a remix of language and ideas from the 1800s?
+
+Here are several of the elements of the first verse of the Book of Mormon that lend evidence to the faithful hypothesis:
+
+|     "I, Nephi" Faithful Hypothesis        |     "I, Nephi" Alt. Hypothesis       |
+|                 :-:                       |                 :-:                  |
+|  1. Kings in Moab said "I, ___, son of"   |                  ?                   |
+|  2. "in my days" resonates                |                  ?                   |
+|  3. Mentions both parents                 |                  ?                   |
+
 
 ## Getting the Data
 
