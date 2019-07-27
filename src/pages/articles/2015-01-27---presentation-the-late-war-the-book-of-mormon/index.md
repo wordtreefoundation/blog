@@ -1,26 +1,26 @@
 ---
-title: "Presentation: The Late War & The Book of Mormon"
-date: "2015-01-28T05:42:51.149Z"
+title: 'Presentation: The Late War & The Book of Mormon'
+date: '2015-01-28T05:42:51.149Z'
 layout: post
 draft: false
-path: "/news/presentation-the-late-war-the-book-of-mormon"
-category: "Presentation"
+path: '/news/presentation-the-late-war-the-book-of-mormon'
+category: 'Presentation'
 tags:
-  - "n-gram"
-  - "book-of-mormon"
-  - "presentation"
-description: "Duane Johnson gave a presentation to the Salt Lake City PostMormon group summarizing some of the similarities between The Late War and the Book of Mormon, as well as further research made since the original work in 2014"
+  - 'n-gram'
+  - 'book-of-mormon'
+  - 'presentation'
+description: 'Duane Johnson gave a presentation to the Salt Lake City PostMormon group summarizing some of the similarities between The Late War and the Book of Mormon, as well as further research made since the original work in 2014'
 ---
 
 I gave a presentation to the Salt Lake City PostMormon group a couple of weeks ago summarizing some of the similarities between The Late War and the Book of Mormon, as well as further research we've made since our original work a little over a year ago.
 
-For the complete Comparison we published online, please see [wordtree.org/the-late-war](http://wordtree.org/the-late-war)
+For the complete Comparison we published online, please see [wordtree.org/thelatewar](http://wordtree.org/thelatewar)
 
 The sound quality improves a little way in to the presentation.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BccPmfR5oSs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-*Transcript Follows*
+_Transcript Follows_
 
 I'm curious how many people have seen the presentation that we gave at the Ex-Mormon conference about a year and a half ago? About a third, ok. So this is meant to be a primer, as well as to go a little bit more in depth in what we've seen since then.
 
@@ -84,7 +84,7 @@ This one, I'm going to go into further detail with, but this one is really amazi
   </tbody>
 </table>
 
-These are all coming from http://wordtree.org/the-late-war so if you want to visit that, it goes into detail on all of those. Some people wonder, how much of the phrases are you skipping with the ellipses? Sometimes it's a lot, sometimes it's a little, so it is interesting to look at that more.
+These are all coming from http://wordtree.org/thelatewar so if you want to visit that, it goes into detail on all of those. Some people wonder, how much of the phrases are you skipping with the ellipses? Sometimes it's a lot, sometimes it's a little, so it is interesting to look at that more.
 
 So here's one of them that I really like: the river battle. In The Late War, we have a battle raging "with great violence, and the men of Britain strove hard to pass over the river called Saranac" and I remember reading the Book of Mormon and thinking, is it a river? or is it waters? that's weird. I always wondered, why are we describing it in two different ways? Well, here we have a parallel: it's "the river called Saranac", and they're on "opposite side of the water", they "slew them with great slaughter", and they drove them back from crossing the bridges, and they were "slain", "so that the waters of the Saranac were dyed with the blood of the servants of the king." So all of the people went in to the river. And basically with the same language [in the Book of Mormon]: here we have "the guards of the king" instead of the "servants of the king", who "slew" them, drove them back and cleared the ground on "the west side" of the river instead of the "opposite side" of "the river Sidon", "throwing bodies of the Lamanites which had been slain, into the waters of Sidon, that thereby his people might have room to cross." Another thing that's kind of weird to me--it's kind of implicit here, but why did they need room to cross? It's a river, right? It's miles and miles, why can't you just kind of go around the people on the other side of the bank? Maybe there was a bridge? I don't know. Maybe some mental imagery prevented the author from thinking in terms of a wide river there.
 
@@ -108,7 +108,7 @@ Q: So a point five would be significant?
 
 A: Yeah, that would definitely be. It's not like each individual match is significant, but when you add up signficant ones like that, then you get a higher score, and that's what happened with The Late War and The First Book of Napoleon.
 
-So, continuing on. That's basically our first study. What we found though, is kind of interesting. The Late War is one book in a genre. It's something that's been studied by Eran Shalev--he wrote a book called American Zion--and he's a professor (non-LDS) at the history department at Haifa, Israel. He studied American texts that were written like the bible, and The Late War falls in this genre. So does the Book of Mormon. This whole genre is really an interesting genre, because it tells us a lot about the early American ideas that were happening. There were a couple of things happening--one was America was reading a book that it considered Holy, that had nothing to do with them--like, Israel, the Holy Land, is far away. The promised land, the chosen people--all of this stuff is really nothing to do with them. But they're forming an identity, right? They're America. They're trying to create a story about themselves, and they cherish this book, so they created stories around the bible that related to America. They basically biblicized themselves--they created a story about how they are biblical. And you'll get tons of stories about how America *is* the Chosen Land, that they are the chosen people, and they'll talk about the similarities between the Exodus and themselves leaving Britain. So the Book of Mormon in that sense is not unique at all--it was very much a part of this zeitgeist.
+So, continuing on. That's basically our first study. What we found though, is kind of interesting. The Late War is one book in a genre. It's something that's been studied by Eran Shalev--he wrote a book called American Zion--and he's a professor (non-LDS) at the history department at Haifa, Israel. He studied American texts that were written like the bible, and The Late War falls in this genre. So does the Book of Mormon. This whole genre is really an interesting genre, because it tells us a lot about the early American ideas that were happening. There were a couple of things happening--one was America was reading a book that it considered Holy, that had nothing to do with them--like, Israel, the Holy Land, is far away. The promised land, the chosen people--all of this stuff is really nothing to do with them. But they're forming an identity, right? They're America. They're trying to create a story about themselves, and they cherish this book, so they created stories around the bible that related to America. They basically biblicized themselves--they created a story about how they are biblical. And you'll get tons of stories about how America _is_ the Chosen Land, that they are the chosen people, and they'll talk about the similarities between the Exodus and themselves leaving Britain. So the Book of Mormon in that sense is not unique at all--it was very much a part of this zeitgeist.
 
 So these are some of the books that we've since discovered and we've actually turned them into digital documents. These are a little bit harder to find, that's why we didn't have them in our original study. Many of them didn't exist in archive.org's stuff, and many of them, if they did at all, were very messy. When you do OCR, scans of documents, they end up with mistakes and it's usually only about an 80% accuracy rate. And so it takes a lot of manual work to get these going. So this is the new set, and we could definitely use help in finding, identifying, or improving the scope and quality of documents that we have. We've made them publicly available here, so anyone can download them, study them, compute with them. Many of them are quite small. Our algorithm doesn't really work with small texts. The problem with small texts is that the uncertainty increases. So if we find a match in a small text, it could mean something, but it also really might not mean something. Since that's the case, we've had to prune the ones that aren't very big.
 
@@ -117,4 +117,3 @@ So this is a preliminary result. We kind of wanted to look at the set of documen
 We have a little group--WordTree Foundation--we have a google group and a github account, where we contribute code and things like that. If any of you are interested, there are lots of interesting things to be done. We aren't particularly--we're kind of a loose-knit group, so it's not like "if you join us you have to go do this." It's more of, "What's your interest?" Maybe we have resources. Maybe someone is interested and they can do it with you. It's a collective. We have about 20 members right now. So that's what we're doing next, and that's where we are so far. Thank you.
 
 [Q&A]
-

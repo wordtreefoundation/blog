@@ -1,19 +1,19 @@
 ---
 title: Understanding ARPA and Language Models
-date: "2014-01-11T19:00:00.000Z"
+date: '2014-01-11T19:00:00.000Z'
 layout: post
 draft: false
-path: "/news/arpa-lm"
-category: "Data Science"
+path: '/news/arpa-lm'
+category: 'Data Science'
 tags:
-  - "n-gram"
-  - "book-of-mormon"
-description: "I started off today thinking I’d be able to transform a previous n-gram library we wrote in the Julia programming language over to KenLM, a very fast Language Model generator. Instead, I ended up spending most of the day learning about language models and data formats. I thought I’d pass along some of this information and any insights I’ve had."
+  - 'n-gram'
+  - 'book-of-mormon'
+description: 'I started off today thinking I’d be able to transform a previous n-gram library we wrote in the Julia programming language over to KenLM, a very fast Language Model generator. Instead, I ended up spending most of the day learning about language models and data formats. I thought I’d pass along some of this information and any insights I’ve had.'
 ---
 
 Language Models are a better way of comparing phrase probabilities than n-gram frequencies.
 
-At the WordTree Foundation, we’re exploring ways of mapping the similarities and influences among various books, with the Book of Mormon of special interest in this exploration. In the past, we’ve shown raw unconditional probabilities to be an interesting (albeit limited) way of scoring similarities among books. Our online publication of [A Comparison of The Book of Mormon and The Late War](/the-late-war) was the result of that original research.
+At the WordTree Foundation, we’re exploring ways of mapping the similarities and influences among various books, with the Book of Mormon of special interest in this exploration. In the past, we’ve shown raw unconditional probabilities to be an interesting (albeit limited) way of scoring similarities among books. Our online publication of [A Comparison of The Book of Mormon and The Late War](/thelatewar) was the result of that original research.
 
 I started off today thinking I’d be able to transform the [previous n-gram library](https://github.com/canadaduane/TextGrams.jl) we wrote in the Julia programming language over to KenLM, a very fast Language Model generator. Instead, I ended up spending most of the day learning about language models and data formats. I thought I’d pass along some of this information and any insights I’ve had.
 
@@ -63,4 +63,3 @@ In an ARPA file, the unigrams (1-grams) are _unconditional probabilities_ while 
 There are three “special” words in a language model: **&lt;s>**, **&lt;/s>**, and **&lt;unk>**. The **&lt;s>** denotes the beginning of a sentence, and the **&lt;/s>** denotes the end of a sentence. This differs from our original study where we had no concept of beginnings and ends of sentences&mdash;we just ignored sentence boundaries. The **&lt;unk>** special word means “unknown” and is used in the language model to represent the probability of a word not in the model (I believe this is also known as “out of vocabulary” or OOV).
 
 By using conditional probabilities, queries for phrases will result in probabilities that more accurately reflect the frequency or rarity of that phrase. Ultimately, this will lead to a more accurate scoring algorithm when comparing books and trying to uncover non-obvious relationships or influences among texts.
-
