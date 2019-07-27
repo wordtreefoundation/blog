@@ -13,28 +13,32 @@
       "component---src-pages-news-jsx-87ccbba1c4c2eb64a267.js.map"
     ],
     "path---categories": [
-      "path---categories-370bcac39ed48a72c114.js",
-      "path---categories-370bcac39ed48a72c114.js.map"
+      "path---categories-9c77df65d375564c5488.js",
+      "path---categories-9c77df65d375564c5488.js.map"
     ],
     "component---src-pages-tags-jsx": [
       "component---src-pages-tags-jsx-0f32f31ba245f3498615.js",
       "component---src-pages-tags-jsx-0f32f31ba245f3498615.js.map"
     ],
     "path---categories-data-science": [
-      "path---categories-data-science-2b5d028959f68710a242.js",
-      "path---categories-data-science-2b5d028959f68710a242.js.map"
+      "path---categories-data-science-c4f80e8b136d8f212294.js",
+      "path---categories-data-science-c4f80e8b136d8f212294.js.map"
     ],
     "path---tags": [
-      "path---tags-d807ce85e1f5cb2c6274.js",
-      "path---tags-d807ce85e1f5cb2c6274.js.map"
+      "path---tags-9b7b064a60a821d1c260.js",
+      "path---tags-9b7b064a60a821d1c260.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-book-of-mormon": [
-      "path---tags-book-of-mormon-2b2d38493160e022eb4d.js",
-      "path---tags-book-of-mormon-2b2d38493160e022eb4d.js.map"
+      "path---tags-book-of-mormon-b6c5a303e49e97dae353.js",
+      "path---tags-book-of-mormon-b6c5a303e49e97dae353.js.map"
+    ],
+    "path---tags-grep": [
+      "path---tags-grep-88e59ffffbc069a4fdbf.js",
+      "path---tags-grep-88e59ffffbc069a4fdbf.js.map"
     ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-87c9541c6336947c0912.js",
@@ -69,8 +73,12 @@
       "component---src-pages-categories-jsx-1ff84966f84b04ce4b5d.js.map"
     ],
     "path---index": [
-      "path---index-7523fde524e618d1f89a.js",
-      "path---index-7523fde524e618d1f89a.js.map"
+      "path---index-64e053556620b848c395.js",
+      "path---index-64e053556620b848c395.js.map"
+    ],
+    "path---news-curiosity-science-i-nephi": [
+      "path---news-curiosity-science-i-nephi-f4739993c75aa8d8d4f6.js",
+      "path---news-curiosity-science-i-nephi-f4739993c75aa8d8d4f6.js.map"
     ],
     "path---news-using-textgrams-jl": [
       "path---news-using-textgrams-jl-2ab65a32bc9e3ddbb9b3.js",
@@ -106,9 +114,13 @@
       "component---src-pages-404-jsx-3d0441dd1a11b2f3a35b.js",
       "component---src-pages-404-jsx-3d0441dd1a11b2f3a35b.js.map"
     ],
+    "path---tags-cli": [
+      "path---tags-cli-9cff321d6c67f8749cfa.js",
+      "path---tags-cli-9cff321d6c67f8749cfa.js.map"
+    ],
     "path---news": [
-      "path---news-7523fde524e618d1f89a.js",
-      "path---news-7523fde524e618d1f89a.js.map"
+      "path---news-64e053556620b848c395.js",
+      "path---news-64e053556620b848c395.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -119,8 +131,8 @@
       "component---src-pages-index-jsx-10dcedb4134684a92623.js.map"
     ],
     "app": [
-      "app-a7519e535b8370f5f006.js",
-      "app-a7519e535b8370f5f006.js.map"
+      "app-c823eaae80761baae4bc.js",
+      "app-c823eaae80761baae4bc.js.map"
     ],
     "path---tags-presentation": [
       "path---tags-presentation-8b6e79259533c33a3ae4.js",

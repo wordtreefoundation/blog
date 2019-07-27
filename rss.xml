@@ -1,4 +1,198 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The WordTree Foundation]]></title><description><![CDATA[The WordTree Foundation studies the relationships between books, with a special interest in LDS scripture such as the Book of Mormon.]]></description><link>http://wordtree.org</link><generator>RSS for Node</generator><lastBuildDate>Fri, 26 Jul 2019 04:56:46 GMT</lastBuildDate><item><title><![CDATA[Fast N-gram Tool]]></title><description><![CDATA[We've built some fast rust-based n-gram research tools for the Mac OS, Linux, or Windows command line.]]></description><link>http://wordtree.org/news/ngram-tools</link><guid isPermaLink="false">http://wordtree.org/news/ngram-tools</guid><pubDate>Thu, 25 Jul 2019 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;One of our goals at WordTree Foundation is to make it easier for anyone with an interest in literary archeology to dive in and test hypotheses. If that’s you, the &lt;a href=&quot;https://github.com/wordtreefoundation/ngram-tools&quot;&gt;ngrams&lt;/a&gt; command-line tool is something you can use to compare n-grams within books to see if small portions of any two (English) books overlap.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The WordTree Foundation]]></title><description><![CDATA[The WordTree Foundation studies the relationships between books, with a special interest in LDS scripture such as the Book of Mormon.]]></description><link>http://wordtree.org</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jul 2019 19:30:50 GMT</lastBuildDate><item><title><![CDATA[Curiosity, Data Science, and I, Nephi]]></title><description><![CDATA[Book of Mormon Central claims that the first sentence of the Book of Mormon attests to its ancient and authentic origin. Suppose you had an alternate hypothesis, would you be able to test it using data science?]]></description><link>http://wordtree.org/news/curiosity-science-i-nephi</link><guid isPermaLink="false">http://wordtree.org/news/curiosity-science-i-nephi</guid><pubDate>Sat, 27 Jul 2019 22:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The Faithful View of “I, Nephi…”&lt;/h2&gt;
+&lt;p&gt;Book of Mormon Central wrote &lt;a href=&quot;https://knowhy.bookofmormoncentral.org/knowhy/why-does-nephi-begin-by-saying-i-nephi&quot;&gt;an article&lt;/a&gt; about the first sentence of the Book of Mormon:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I, Nephi, having been born of goodly parents, therefore I was taught somewhat in all the learning of my father and having seen many afflictions in the course of my days, nevertheless, having been highly favored of the Lord in all my days; yea, having had a great knowledge of the goodness and the mysteries of God, therefore I make a record of my proceedings in my days.”
+&lt;br&gt;&lt;a href=&quot;https://www.bookofmormonorigins.com/content/1nephi/chapter_01.html&quot;&gt;1 Nephi 1:1&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The author links this style of writing to ancient kings, and uses a fascinating linguistic connection to the historical past to lend strength to the hypothesis that the Book of Mormon’s origin is ancient.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;“I, Nephi” Faithful Hypothesis&lt;/th&gt;
+&lt;th&gt;“I, Nephi” Alt. Hypothesis&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1. Nephi copied style of ancient kings&lt;/td&gt;
+&lt;td&gt; 
+ 
+ 
+?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2. Kings said “I, 
+_
+_
+_
+, son of”&lt;/td&gt;
+&lt;td&gt; 
+ 
+ 
+?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2. “in my days” resonates&lt;/td&gt;
+&lt;td&gt; 
+ 
+ 
+?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3. Nephi acknowledges both parents&lt;/td&gt;
+&lt;td&gt; 
+ 
+ 
+?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This is a wonderful, faithful hypothesis. There isn’t anything wrong with it if you just want reasons to believe the Book of Mormon is holy.&lt;/p&gt;
+&lt;p&gt;One of the beautiful things about truth is that it is strengthened by inspection from multiple perspectives. Curiosity and a thirst for truth drives us to experiment with ideas, and with the powerful tools we have today, we can often investigate literary hypotheses ourselves.&lt;/p&gt;
+&lt;h2&gt;Another Hypothesis?&lt;/h2&gt;
+&lt;p&gt;Let’s say you have another hypothesis: that maybe the Book of Mormon was written in the 19th century, rather than miraculously translated from an ancient source. Your curiosity drives you to want to see deeply into this, and you’re looking for tools. How would you go about testing this?&lt;/p&gt;
+&lt;p&gt;If the Book of Mormon were written in the 1800s, we might expect to see other books from its time with similar phrasing. Maybe “I, Nephi, having been born of goodly parents…” is a &lt;a href=&quot;https://www.everythingisaremix.info/watch-the-series&quot;&gt;remix&lt;/a&gt; of language and ideas from the 1800s?&lt;/p&gt;
+&lt;p&gt;Let’s look at elements of the faithful interpretation and see if we can construct an alternative hypothesis worthy of testing:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;“I, Nephi” Faithful Hypothesis&lt;/th&gt;
+&lt;th&gt;“I, Nephi” Alt. Hypothesis&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1. Nephi used style of ancient kings&lt;/td&gt;
+&lt;td&gt; 
+Joseph used style of 19th C. writers?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2. Kings said “I, 
+_
+_
+_
+, son of”&lt;/td&gt;
+&lt;td&gt; 
+19th C. authors wrote this way?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2. “in my days” resonates&lt;/td&gt;
+&lt;td&gt; 
+19th C. autobiography style resonates?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3. Nephi acknowledges both parents&lt;/td&gt;
+&lt;td&gt; 
+19th C. authors mention both parents?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Joseph used style of 19th C. writers?&lt;/h3&gt;
+&lt;p&gt;Rather than Nephi being inspired by monumental inscriptions of ancient mesopotamian kings, could the author of the Book of Mormon (presumably Joseph) have used the style of 19th century writers? Did 19th century writers write this way?&lt;/p&gt;
+&lt;h3&gt;19th century authors wrote with “I, [name], son of…” phrase?&lt;/h3&gt;
+&lt;p&gt;Rather than Nephi using the “I, [name], son of [name]” terminology from ancient kings, could Joseph have read this in 19th century books? Did they write that way back then?&lt;/p&gt;
+&lt;h3&gt;19th century autobiography style resonates?&lt;/h3&gt;
+&lt;p&gt;Rather than Nephi using an autobiographical style that includes a record of things “in his day”, could Joseph have written something like this in the 19th century? Did autobiographical texts talk about parentage, education, and religious standing?&lt;/p&gt;
+&lt;h3&gt;19th century authors mention both parents?&lt;/h3&gt;
+&lt;p&gt;Rather than Nephi deviating from the pattern of Kings mentioning fathers, could Joseph have taken inspiration from 19th century authors to mention parents in the plural? Did anyone in the 19th century attribute good to both parents?&lt;/p&gt;
+&lt;h2&gt;Getting the Data&lt;/h2&gt;
+&lt;p&gt;We can get a lot of data from archive.org, which has meticulously gathered, scanned, and OCRed centuries-old books. Using &lt;a href=&quot;https://github.com/wordtreefoundation/bomdb&quot;&gt;archdown&lt;/a&gt; you could download all of these books in a nice text format with header info.&lt;/p&gt;
+&lt;p&gt;Or, you could use our English Books archive, which is a handy copy of archive.org’s 1650 to 1829 books: download &lt;a href=&quot;http://data.wordtree.org/archive-org-english-books-1650-1829-asof-2019-06-24.tar.gz&quot;&gt;pre-1830 Books from Archive.org&lt;/a&gt; as a &lt;code class=&quot;language-text&quot;&gt;.tar.gz&lt;/code&gt; zip file (~30 GB of data, ~137 GB uncompressed).&lt;/p&gt;
+&lt;p&gt;Once you have the data, unzip the archive:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ gunzip http://data.wordtree.org/archive-org-english-books-1650-1829-asof-2019-06-24.tar.gz&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;It will create a &lt;code class=&quot;language-text&quot;&gt;library/&lt;/code&gt; folder in the directory you unzip it into. That &lt;code class=&quot;language-text&quot;&gt;library/&lt;/code&gt; folder will contain many two-letter subfolders, each containing two-letter subfolders themselves. Finally, in those subfolders, you’ll find &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; files that are text files containing the actual book contents.&lt;/p&gt;
+&lt;p&gt;Since these books are raw OCR conversions of scanned pages, the quality of the text varies quite a bit. The quality is sufficient that we can still test our hypothesis, however.&lt;/p&gt;
+&lt;p&gt;You can now search 137 GB of text, all from books written prior to the Book of Mormon’s publication date!&lt;/p&gt;
+&lt;h2&gt;Experimenting with Unix Tools&lt;/h2&gt;
+&lt;p&gt;If you’re familiar with the &lt;code class=&quot;language-text&quot;&gt;grep&lt;/code&gt; command-line utility, and regular expressions, you can search precisely for any pattern you’d like. For example, let’s search the library for Nephi:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ grep -r &amp;#39;Nephi&amp;#39; library/&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Some example matches:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Sor, Tyrus, metropolis Phoenices, in tribu Nephihalim, Et Theo-
+^K ^arthia, which had formed king ufThehesby Nephile; who with
+1&amp;#39;ratt Nephi. Treasurer.
+Nephi I SEVIER COUNTY.
+Nephi
+...
+[734 results]&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Whoa! There’s a lot of data here. More than I expected. This search yielded 734 results in about 5 minutes of searching on my PC (having an SSD hard drive helps).&lt;/p&gt;
+&lt;p&gt;A lot of the results are infix matches—“Nephi” is part of “Nephilim” and “Mount Nephin” for example. Can we tighten the search up so it doesn’t show these?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ grep -Er &amp;#39;\bNephi\b&amp;#39; library/&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;So now we’re using a more advanced regular expression, with the &lt;code class=&quot;language-text&quot;&gt;\b&lt;/code&gt; word-boundary marker. This ensures that any match of “Nephi” will be just Nephi, and not Nephilim, for example. With this addition, we reduce the results to 102 matches!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;along the mountain base from&amp;#39;Nephi to Willard.
+Nephi,
+1&amp;#39;ratt Nephi. Treasurer.
+Nephi I SEVIER COUNTY.
+...
+is acted upon (Book of Mormon, II. Nephi, Ch. 2). From this
+GodwiJnV Uva MilUnis Nephi^
+Arabian desert; the Hagarites, Itureans (Jetur), Nephi-
+Nephi.
+many men call it Nephi.
+...
+[102 results]&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Funny! It looks like a reference to the Book of Mormon is in there. Well, that can’t be right. We’re clearly dealing with noisy data—yup, looks like archive.org mis-dated an edition of the Encyclopedia Britannica as written in 1768, when in actuality it was written after 1830.&lt;/p&gt;
+&lt;p&gt;Anyway, we can see a lot of references to Nephi here. Some of them are from the Bible… wait, the bible? It turns out Maccabees contains a reference to a place called Nephi, and many bibles back then used to contain the Apocrypha.&lt;/p&gt;
+&lt;p&gt;What if we want to search for the pattern that Book of Mormon Central is talking about, though—something like “I, [so-and-so], (son or daughter) of [so-and-so]…“?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ grep -A2 -E &amp;#39;\bI\s?,[\s]+[A-Z][a-z][a-z]&amp;#39; library/ \
+  | grep -B2 -A2 -Ei &amp;#39;\b(son|daughter) of&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;This is a more advanced regular expression, and since this is more about tools, if you’d like to understand regexps better, I’ll just point you to a good &lt;a href=&quot;https://www.regular-expressions.info/tutorial.html&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This search yields some interesting results, more than 100 matches, some of which I’ll highlight:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“This is the account of what I, Ibrahim, the son of Candu the merchant, have seen ; this is what I have been present at, and a witness to: where is the Malay who has seen the like that I, Ibrahim, the son of Candu, have seen since I arrived in the great country of Bengal!!”
+&lt;br&gt;&lt;a href=&quot;https://archive.org/details/jouralofresidenc00mari/page/196&quot;&gt;Journal of a Residence in India, 1812&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I, Cennino, son of Andrea Cennini born in the Colle di Valdelsa, was instructed in these arts by Agnolo, son of Taddeo of Florence, my master, who learned the art from Taddeo, his father, the godson of Giotto, whose disciple he had been for twenty-four years.”
+&lt;br&gt;&lt;a href=&quot;https://archive.org/details/quarterlyreview15protgoog/page/n94&quot;&gt;The Quarterly Review, London, 1845&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I, Charlotte K. Sibley, of the city of Fredericksburgh, State of Virginia, do make oath that my maiden name was Charlotte Kendall ; that I was born in Sackett’s Harbor, State of New York, the daughter of William Kendall and Charlotte Howard, both of the city of Boston…”
+&lt;br&gt;&lt;a href=&quot;https://archive.org/details/unitedstatescon49offigoog/page/n1112&quot;&gt;Reports of Committees of the Senate of the United States, Washington, 1888&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“By the favor and grace of God, I, Wahram, lord of lords, and Antipatrik, son of Grigor, a grandee of Armenia, of the race of Palhawouny, and descendant of the family of St. Grigor, the light of Armenia. In the hope in Christ I have the laid the foundations, and built this holy church Marmarachen…”
+&lt;br&gt;&lt;a href=&quot;https://archive.org/details/in.ernet.dli.2015.104655/page/n365&quot;&gt;Asiatic Journal, London, 1824&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Could we take it a step further? What if there were 19th century books that are even more similar to the “I, Nephi, having been born of goodly parents…” phrase? Could we search for that? Here’s an advanced regular expression that looks for the word “I”, followed by a comma, and then a capitalized word (e.g. name), followed by the words “born” and “parent(s)” in any of the next two lines:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ grep -A2 -Er &amp;#39;\bI,[\s]+[A-Z][a-z][a-z]&amp;#39; library/ \
+  | grep -B2 -A2 -i &amp;#39;born&amp;#39; \
+  | grep -B2 -A2 -i &amp;#39;parent&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Again, quite a few matches! Here are two interesting ones:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I, John Barnard was born at Boston, 6th Nov. 1681; descended from reputable parents, viz. John and Esther Barnard, remarkable for their piety and benevolence, who devoted me to the service of God, in the work of ministry, from my very conception and birth; and accordingly took special care to instruct me themselves in the principles of the Christian Religion, and kept me close at school to furnish my young mind with the knowledge of letters.”
+&lt;br&gt;&lt;a href=&quot;https://archive.org/details/collectionss3v5mass/page/178&quot;&gt;Collections of the Massachusetts Historical Society, Boston, 1836, p. 178&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I, Ingulphus, an humble servant of God, born of English parents, in the most beautiful city of London, for attaining to learning, was first put to Westminster, and after to study at Oxford, &amp;#x26;c.”
+&lt;br&gt;&lt;a href=&quot;https://archive.org/details/cihm_18699/page/n95&quot;&gt;A General collection of the best and most interesting voyages and travels in all parts of the world, Vol. 2. Philadelphia. 1810. p. 87.&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Based on this search, it seems clear to me that an alternative hypothesis exists next to the faithful hypothesis: that the author of the Book of Mormon could have remixed 19th century language and ideas to come up with the first verse of the Book of Mormon:&lt;/p&gt;
+&lt;h2&gt;Alternate Hypothesis&lt;/h2&gt;
+&lt;p&gt;John Barnard, above, employs a linguistic style that very nearly matches the first verse of 1 Nephi, and does so with remarkably similar content:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;uses “I, [name], born … reputable parents” pattern&lt;/li&gt;
+&lt;li&gt;honors both his parents&lt;/li&gt;
+&lt;li&gt;connects education and schooling to parents&lt;/li&gt;
+&lt;li&gt;speaks to his &amp;#x26; his parents devotion to God&lt;/li&gt;
+&lt;li&gt;the work is an autobiography&lt;/li&gt;
+&lt;li&gt;written in 1836, and published in Boston, USA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Given that someone else wrote this way in the 19th century, in the same region as Joseph Smith, it seems plausible that the alternate hypothesis has good standing when compared to the faithful hypothesis.&lt;/p&gt;
+&lt;p&gt;If you’d like to see more connections between the Book of Mormon &amp;#x26; 19th century literature, check out our study on &lt;a href=&quot;http://wordtree.org/thelatewar/&quot;&gt;The Late War Between the United States and Great Britain&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fast N-gram Tool]]></title><description><![CDATA[We've built some fast rust-based n-gram research tools for the Mac OS, Linux, or Windows command line.]]></description><link>http://wordtree.org/news/ngram-tools</link><guid isPermaLink="false">http://wordtree.org/news/ngram-tools</guid><pubDate>Thu, 25 Jul 2019 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;One of our goals at WordTree Foundation is to make it easier for anyone with an interest in literary archeology to dive in and test hypotheses. If that’s you, the &lt;a href=&quot;https://github.com/wordtreefoundation/ngram-tools&quot;&gt;ngrams&lt;/a&gt; command-line tool is something you can use to compare n-grams within books to see if small portions of any two (English) books overlap.&lt;/p&gt;
 &lt;p&gt;The basic idea is this: if two books (or authors) were inspired by a common source, or if one book (or author) was inspired by the other, then there is likely to be some unusual words or phrases that “stand out,” statistically speaking.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;https://github.com/wordtreefoundation/ngram-tools&quot;&gt;ngrams&lt;/a&gt; tool is a &lt;em&gt;very fast&lt;/em&gt; implementation of an ngram counter. It’s written using the Rust programming language, which is known as one of the fastest, safest languages in today’s language ecosystem. It takes &lt;a href=&quot;https://en.wikipedia.org/wiki/ASCII&quot;&gt;ascii&lt;/a&gt; encoded text as input, cleans it up, iterates over windows of size N (for whatever value of N you want—e.g. 4 is a reasonable window size), and then counts the N-grams.&lt;/p&gt;
 &lt;p&gt;Then, using &lt;code class=&quot;language-text&quot;&gt;client / server mode&lt;/code&gt; you can query for n-grams that match between two or more books.&lt;/p&gt;
